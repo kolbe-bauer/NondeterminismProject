@@ -1,0 +1,9 @@
+############################################################
+diff of ./log/1.out ./log/1.log is: 
+############################################################
+10d9
+< ./test1/test.java:36: Compared expressions can be equal only when both of them are 0.
+18c17
+< Verification completed: 17 reported messages.
+---
+> Verification completed: 16 reported messages.
