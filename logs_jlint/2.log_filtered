@@ -1,0 +1,2 @@
+./test2/java11/io/FilterInputStream.java:179: Loop 1: invocation of synchronized method java11/io/FilterInputStream.mark(int) can cause deadlock.
+./test2/java11/io/FilterInputStream.java:204: Loop 2: invocation of synchronized method java11/io/FilterInputStream.reset() can cause deadlock.

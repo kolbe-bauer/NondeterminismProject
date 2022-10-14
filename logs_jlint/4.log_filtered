@@ -1,0 +1,37 @@
+./test4/com/thoughtworks/xstream/io/json/AbstractJsonWriter.java:485: Switch case constant 2 can't be produced by switch expression.
+./test4/com/thoughtworks/xstream/converters/reflection/AbstractReflectionConverter.java:322: Value of referenced variable 'type' may be NULL.
+./test4/com/thoughtworks/xstream/converters/reflection/AbstractReflectionConverter.java:323: Value of referenced variable 'type' may be NULL.
+./test4/com/thoughtworks/xstream/converters/reflection/AbstractReflectionConverter.java:399: Value of referenced variable 'value' may be NULL.
+./test4/com/thoughtworks/xstream/mapper/AnnotationMapper.java:458: Value of referenced variable 'targetType' may be NULL.
+./test4/com/thoughtworks/xstream/mapper/AnnotationMapper.java:554: Zero operand for | operation.
+./test4/com/thoughtworks/xstream/mapper/AnnotationMapper.java:586: Zero operand for | operation.
+./test4/com/thoughtworks/xstream/core/util/Base64Encoder.java:64: Shift >> with count <= than -6.
+./test4/com/thoughtworks/xstream/core/util/Base64Encoder.java:77: Shift >> with count <= than -8.
+./test4/com/thoughtworks/xstream/converters/reflection/CGLIBEnhancedConverter.java:106: Comparison always produces the same result.
+./test4/com/thoughtworks/xstream/core/util/CompositeClassLoader.java:119: Loop 1: invocation of synchronized method com/thoughtworks/xstream/core/util/CompositeClassLoader.loadClass(java.lang.String) can cause deadlock.
+./test4/com/thoughtworks/xstream/core/util/CompositeClassLoader.java:129: Loop 2: invocation of synchronized method com/thoughtworks/xstream/core/util/CompositeClassLoader.loadClass(java.lang.String) can cause deadlock.
+./test4/com/thoughtworks/xstream/converters/basic/DateConverter.java:144: Value of referenced variable 'acceptableFormats' may be NULL.
+./test4/com/thoughtworks/xstream/mapper/EnumMapper.java:119: Value of lock enumConverterMap is changed outside synchronization or constructor.
+./test4/com/thoughtworks/xstream/converters/reflection/FieldDictionary.java:188: Loop 1: invocation of synchronized method com/thoughtworks/xstream/converters/reflection/FieldDictionary.flushCache() can cause deadlock.
+./test4/com/thoughtworks/xstream/core/JVM.java:274: Method com/thoughtworks/xstream/core/JVM.isHarmony() can be called from different threads and is not synchronized.
+./test4/com/thoughtworks/xstream/core/JVM.java:259: Method com/thoughtworks/xstream/core/JVM.is14() can be called from different threads and is not synchronized.
+./test4/com/thoughtworks/xstream/core/JVM.java:259: Method com/thoughtworks/xstream/core/JVM.isDiablo() can be called from different threads and is not synchronized.
+./test4/com/thoughtworks/xstream/core/JVM.java:259: Method com/thoughtworks/xstream/core/JVM.isSAP() can be called from different threads and is not synchronized.
+./test4/com/thoughtworks/xstream/core/JVM.java:259: Method com/thoughtworks/xstream/core/JVM.isHitachi() can be called from different threads and is not synchronized.
+./test4/com/thoughtworks/xstream/core/JVM.java:259: Method com/thoughtworks/xstream/core/JVM.isBEAWithUnsafeSupport() can be called from different threads and is not synchronized.
+./test4/com/thoughtworks/xstream/core/JVM.java:259: Method com/thoughtworks/xstream/core/JVM.isBlackdown() can be called from different threads and is not synchronized.
+./test4/com/thoughtworks/xstream/core/JVM.java:259: Method com/thoughtworks/xstream/core/JVM.isIBM() can be called from different threads and is not synchronized.
+./test4/com/thoughtworks/xstream/core/JVM.java:259: Method com/thoughtworks/xstream/core/JVM.isHPUX() can be called from different threads and is not synchronized.
+./test4/com/thoughtworks/xstream/core/JVM.java:259: Method com/thoughtworks/xstream/core/JVM.isApple() can be called from different threads and is not synchronized.
+./test4/com/thoughtworks/xstream/core/JVM.java:259: Method com/thoughtworks/xstream/core/JVM.isOracle() can be called from different threads and is not synchronized.
+./test4/com/thoughtworks/xstream/core/JVM.java:259: Method com/thoughtworks/xstream/core/JVM.isSun() can be called from different threads and is not synchronized.
+./test4/com/thoughtworks/xstream/core/util/Pool.java:73: Value of lock mutex is changed outside synchronization or constructor.
+./test4/com/thoughtworks/xstream/core/util/Pool.java:66: Lock com/thoughtworks/xstream/core/util/Pool.mutex is requested while holding lock <unknown>, with other thread holding com/thoughtworks/xstream/core/util/Pool.mutex and requesting lock <unknown>.
+./test4/com/thoughtworks/xstream/converters/reflection/PureJavaReflectionProvider.java:189: Value of lock serializedDataCache is changed outside synchronization or constructor.
+./test4/com/thoughtworks/xstream/converters/reflection/SerializableConverter.java:383: Method com/thoughtworks/xstream/converters/reflection/SerializableConverter$2$1.run() implementing 'Runnable' interface is not synchronized.
+./test4/com/thoughtworks/xstream/converters/reflection/Sun14ReflectionProvider.java:162: Value of lock constructorCache is changed outside synchronization or constructor.
+./test4/com/thoughtworks/xstream/mapper/SystemAttributeAliasingMapper.java:30: Compare strings as object references.
+./test4/com/thoughtworks/xstream/io/binary/Token.java:128: Comparison always produces the same result.
+java/lang/Runnable.java:1: Method java/lang/Runnable.run() implementing 'Runnable' interface is not synchronized.
+./test4/com/thoughtworks/xstream/io/xml/xppdom/XppDom.java:222: Compared expressions can be equal only when both of them are 0.
+./test4/com/thoughtworks/xstream/io/xml/xppdom/XppDom.java:229: Compared expressions can be equal only when both of them are 0.

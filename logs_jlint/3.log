@@ -1,0 +1,530 @@
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/renderer/AbstractCategoryItemRenderer.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/chart/renderer/AbstractRenderer.java:1: Comparison always produces the same result.
+./test3/org/jfree/chart/renderer/AbstractRenderer.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+org/jfree/chart/Spacer.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/AbstractTitle.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+org/jfree/chart/renderer/AbstractRenderer.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/renderer/AbstractXYItemRenderer.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/chart/axis/Axis.java:1: Switch case constant 4 can't be produced by switch expression.
+java/awt/Insets.java:2: equals() was overridden but not hashCode().
+java/awt/Font.java:3: equals() was overridden but not hashCode().
+java/lang/String.java:4: equals() was overridden but not hashCode().
+java/lang/Object.java:5: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/axis/Axis.java:6: equals() was overridden but not hashCode().
+Verification completed: 6 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+org/jfree/chart/renderer/AbstractXYItemRenderer.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/renderer/CandlestickRenderer.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+org/jfree/chart/axis/Axis.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/axis/CategoryAxis.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+java/lang/Object.java:2: equals() was overridden but not hashCode().
+java/awt/Font.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/chart/plot/CombinedXYPlot.java:1: Comparison always produces the same result.
+org/jfree/chart/plot/XYPlot.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/plot/CombinedXYPlot.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+./test3/org/jfree/chart/plot/CompassPlot.java:1: Index [-1,2147483646] may be out of array bounds.
+java/awt/Font.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/chart/plot/ContourPlot.java:1: Value of referenced variable '???' may be NULL.
+./test3/org/jfree/chart/plot/ContourPlot.java:2: Index [-1,2147483646] may be out of array bounds.
+./test3/org/jfree/chart/plot/ContourPlot.java:3: Zero operand for + operation.
+java/lang/Object.java:4: equals() was overridden but not hashCode().
+Verification completed: 4 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/tooltips/CustomXYToolTipGenerator.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/urls/CustomXYURLGenerator.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/text/DateFormat.java:1: equals() was overridden but not hashCode().
+org/jfree/chart/axis/TickUnit.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/axis/DateTickUnit.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/Day.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+java/util/List.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/data/DefaultCategoryDataset.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/chart/renderer/DefaultDrawingSupplier.java:1: Comparison always produces the same result.
+java/util/Arrays.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/renderer/DefaultDrawingSupplier.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/data/DefaultIntervalCategoryDataset.java:1: Inequality comparison can be replaced with equality comparison.
+java/lang/Object.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/DefaultKeyedValue.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+./test3/org/jfree/data/DefaultKeyedValueDataset.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+java/util/List.java:1: equals() was overridden but not hashCode().
+java/lang/Object.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/data/DefaultKeyedValues2D.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/DefaultKeyedValues.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/DefaultPieDataset.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/data/DefaultValueDataset.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/util/Date.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/FixedMillisecond.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/text/DateFormat.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/tooltips/HighLowToolTipGenerator.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+org/jfree/chart/axis/CategoryAxis.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/axis/HorizontalCategoryAxis.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+org/jfree/chart/axis/ValueAxis.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+./test3/org/jfree/chart/axis/HorizontalColorBarAxis.java:1: Value of referenced variable '???' may be NULL.
+./test3/org/jfree/chart/axis/HorizontalColorBarAxis.java:2: Value of referenced variable '???' may be NULL.
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/chart/axis/HorizontalMarkerAxisBand.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+org/jfree/data/time/Day.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/Hour.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/text/DateFormat.java:1: equals() was overridden but not hashCode().
+java/text/NumberFormat.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/tooltips/IntervalCategoryToolTipGenerator.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/JFreeChart.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+org/jfree/data/SortOrder.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/KeyedValueComparatorType.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/chart/Legend.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/ui/LegendPropertyEditPanel.java:2: Method javax/swing/JPanel.add(java.awt.Component) is not overridden by method with the same name of derived class 'org/jfree/chart/ui/LegendPropertyEditPanel'.
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/awt/Font.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+org/jfree/data/time/Second.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/Millisecond.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+org/jfree/data/time/Hour.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/Minute.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+./test3/org/jfree/data/time/Month.java:1: Comparison always produces the same result.
+org/jfree/data/time/Year.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/Month.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/renderer/PaintTable.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+java/awt/Font.java:2: equals() was overridden but not hashCode().
+org/jfree/chart/plot/Plot.java:3: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/plot/PiePlot.java:4: equals() was overridden but not hashCode().
+Verification completed: 4 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/chart/plot/Plot.java:1: Comparison always produces the same result.
+./test3/org/jfree/chart/plot/Plot.java:2: Comparison always produces the same result.
+java/awt/Insets.java:3: equals() was overridden but not hashCode().
+java/lang/Object.java:4: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/plot/Plot.java:5: equals() was overridden but not hashCode().
+Verification completed: 5 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/data/time/Quarter.java:1: Comparison always produces the same result.
+org/jfree/data/time/Year.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/Quarter.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+org/jfree/data/time/Minute.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/Second.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/renderer/ShapeTable.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/util/Date.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/SimpleTimePeriod.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/SortOrder.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+./test3/org/jfree/chart/Spacer.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/chart/renderer/StackedVerticalBarRenderer.java:1: Zero operand for - operation.
+./test3/org/jfree/chart/renderer/StackedVerticalBarRenderer.java:2: Zero operand for - operation.
+./test3/org/jfree/chart/renderer/StackedVerticalBarRenderer.java:3: Zero operand for + operation.
+./test3/org/jfree/chart/renderer/StackedVerticalBarRenderer.java:4: Zero operand for - operation.
+./test3/org/jfree/chart/renderer/StackedVerticalBarRenderer.java:5: Zero operand for - operation.
+./test3/org/jfree/chart/renderer/StackedVerticalBarRenderer.java:6: Zero operand for + operation.
+Verification completed: 6 reported messages.
+java/text/DateFormat.java:1: equals() was overridden but not hashCode().
+java/text/NumberFormat.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/tooltips/StandardCategoryToolTipGenerator.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+java/text/DecimalFormat.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/tooltips/StandardContourToolTipGenerator.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+org/jfree/chart/Legend.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/StandardLegend.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+java/text/NumberFormat.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/tooltips/StandardPieToolTipGenerator.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/urls/StandardPieURLGenerator.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+org/jfree/chart/renderer/AbstractXYItemRenderer.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/renderer/StandardXYItemRenderer.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+java/text/NumberFormat.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/tooltips/StandardXYToolTipGenerator.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+java/text/NumberFormat.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/tooltips/StandardXYZToolTipGenerator.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+./test3/org/jfree/chart/urls/StandardXYZURLGenerator.java:1: Method org/jfree/chart/urls/StandardXYURLGenerator.generateURL(org.jfree.data.XYDataset, int, int) is not overridden by method with the same name of derived class 'org/jfree/chart/urls/StandardXYZURLGenerator'.
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/renderer/StrokeTable.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+java/awt/Font.java:2: equals() was overridden but not hashCode().
+java/lang/String.java:3: equals() was overridden but not hashCode().
+org/jfree/chart/AbstractTitle.java:4: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/TextTitle.java:5: equals() was overridden but not hashCode().
+Verification completed: 5 reported messages.
+./test3/org/jfree/chart/plot/ThermometerPlot.java:1: Comparison always produces the same result.
+java/lang/Object.java:2: equals() was overridden but not hashCode().
+java/lang/String.java:3: equals() was overridden but not hashCode().
+java/awt/Font.java:4: equals() was overridden but not hashCode().
+org/jfree/chart/plot/Plot.java:5: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/plot/ThermometerPlot.java:6: equals() was overridden but not hashCode().
+Verification completed: 6 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/chart/axis/TickUnit.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/TimePeriodValue.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+org/jfree/data/time/TimeSeriesDataItem.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/TimeSeries.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+./test3/org/jfree/data/time/TimeSeriesCollection.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/TimeSeriesDataItem.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+java/text/NumberFormat.java:1: equals() was overridden but not hashCode().
+java/text/DateFormat.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/tooltips/TimeSeriesToolTipGenerator.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/ui/TitlePropertyEditPanel.java:2: Method javax/swing/JPanel.add(java.awt.Component) is not overridden by method with the same name of derived class 'org/jfree/chart/ui/TitlePropertyEditPanel'.
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+org/jfree/chart/axis/ValueAxis.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/data/time/Week.java:1: Comparison always produces the same result.
+org/jfree/data/time/Year.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/data/time/Week.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+org/jfree/chart/axis/ValueAxis.java:1: equals() was overridden but not hashCode().
+org/jfree/chart/plot/Plot.java:2: equals() was overridden but not hashCode().
+./test3/org/jfree/chart/plot/XYPlot.java:3: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+./test3/org/jfree/data/XYSeries.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+./test3/org/jfree/data/XYSeriesCollection.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test3/org/jfree/data/time/Year.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.

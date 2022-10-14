@@ -1,0 +1,10 @@
+./test2/java11/io/BufferedInputStream.java:132: Local variable 'in' shadows component of class 'java11/io/BufferedInputStream'.
+./test2/java11/io/BufferedInputStream.java:148: Local variable 'in' shadows component of class 'java11/io/BufferedInputStream'.
+Verification completed: 2 reported messages.
+./test2/java11/io/FilterInputStream.java:179: Loop 1: invocation of synchronized method java11/io/FilterInputStream.mark(int) can cause deadlock.
+./test2/java11/io/FilterInputStream.java:204: Loop 2: invocation of synchronized method java11/io/FilterInputStream.reset() can cause deadlock.
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.

@@ -1,0 +1,29 @@
+./test14/java141/util/logging/Logger.java:207: Local variable 'resourceBundleName' shadows component of class 'java141/util/logging/Logger'.
+./test14/java141/util/logging/Logger.java:235: Local variable 'manager' shadows component of class 'java141/util/logging/Logger'.
+./test14/java141/util/logging/Logger.java:234: Local variable 'name' shadows component of class 'java141/util/logging/Logger'.
+./test14/java141/util/logging/Logger.java:274: Local variable 'manager' shadows component of class 'java141/util/logging/Logger'.
+./test14/java141/util/logging/Logger.java:273: Local variable 'name' shadows component of class 'java141/util/logging/Logger'.
+./test14/java141/util/logging/Logger.java:315: Local variable 'manager' shadows component of class 'java141/util/logging/Logger'.
+./test14/java141/util/logging/Logger.java:346: Local variable 'manager' shadows component of class 'java141/util/logging/Logger'.
+./test14/java141/util/logging/Logger.java:345: Local variable 'resourceBundleName' shadows component of class 'java141/util/logging/Logger'.
+./test14/java141/util/logging/Logger.java:1228: Compare strings as object references.
+./test14/java141/util/logging/Logger.java:1220: Local variable 'name' shadows component of class 'java141/util/logging/Logger'.
+./test14/java141/util/logging/Logger.java:1291: Local variable 'name' shadows component of class 'java141/util/logging/Logger'.
+./test14/java141/util/logging/Logger.java:1332: Local variable 'parent' shadows component of class 'java141/util/logging/Logger'.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+./test14/java141/util/logging/Logger.java:1410: Method java141/util/logging/Logger.updateEffectiveLevel() can be called from different threads and is not synchronized.
+./test14/java141/util/logging/Logger.java:1316: Field 'treeLock' of class 'java141/util/logging/Logger' can be accessed from different threads and is not volatile.
+./test14/java141/util/logging/Logger.java:1346: Field 'treeLock' of class 'java141/util/logging/Logger' can be accessed from different threads and is not volatile.
+./test14/java141/util/logging/Logger.java:432: Loop 1: invocation of synchronized method java141/util/logging/Logger.getHandlers() can cause deadlock.
+./test14/java141/util/logging/Logger.java:440: Loop 2: invocation of synchronized method java141/util/logging/Logger.getUseParentHandlers() can cause deadlock.
+Verification completed: 18 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+./test14/java141/util/logging/LogManager.java:790: Local variable 'parent' shadows component of class 'java141/util/logging/LogManager$LogNode'.
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.

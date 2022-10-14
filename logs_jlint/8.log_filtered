@@ -1,0 +1,87 @@
+./test8/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java:891: Value of referenced variable 'line' may be NULL.
+./test8/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java:984: Value of referenced variable 'line' may be NULL.
+./test8/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:1052: Value of referenced variable 'line' may be NULL.
+./test8/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:1251: Value of referenced variable 'line' may be NULL.
+./test8/org/jfree/chart/renderer/category/BarRenderer3D.java:627: Value of referenced variable 'path' may be NULL.
+./test8/org/jfree/chart/block/BlockContainer.java:208: Value of referenced variable 'ebp' may be NULL.
+./test8/org/jfree/chart/block/BorderArrangement.java:169: Value of referenced variable 'contentSize' may be NULL.
+./test8/org/jfree/chart/block/BorderArrangement.java:169: Value of referenced variable 'contentSize' may be NULL.
+./test8/org/jfree/chart/ChartFactory.java:417: Value of referenced variable 'series' may be NULL.
+./test8/org/jfree/chart/ChartFactory.java:436: Value of referenced variable 'series' may be NULL.
+./test8/org/jfree/chart/ChartFactory.java:543: Value of referenced variable 'series' may be NULL.
+./test8/org/jfree/chart/ChartFactory.java:562: Value of referenced variable 'series' may be NULL.
+./test8/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java:337: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java:337: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:238: Value of referenced variable 'colorBarArea' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:243: Value of referenced variable 'colorBarArea' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:248: Value of referenced variable 'colorBarArea' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:253: Value of referenced variable 'colorBarArea' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:257: Value of referenced variable 'state' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:283: Value of referenced variable 'colorBarArea' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:284: Value of referenced variable 'colorBarArea' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:285: Value of referenced variable 'colorBarArea' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:287: Value of referenced variable 'colorBarArea' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:296: Value of referenced variable 'colorBarArea' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:297: Value of referenced variable 'colorBarArea' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:298: Value of referenced variable 'colorBarArea' may be NULL.
+./test8/org/jfree/chart/axis/ColorBar.java:300: Value of referenced variable 'colorBarArea' may be NULL.
+./test8/org/jfree/chart/plot/CompassPlot.java:546: Index [-1,2147483646] may be out of array bounds.
+./test8/org/jfree/chart/plot/ContourPlot.java:840: Index [-1,2147483646] may be out of array bounds.
+./test8/org/jfree/chart/plot/ContourPlot.java:848: Zero operand for + operation.
+./test8/org/jfree/chart/labels/IntervalXYItemLabelGenerator.java:200: Value of referenced variable 'intervalDataset' may be NULL.
+./test8/org/jfree/chart/labels/IntervalXYItemLabelGenerator.java:212: Value of referenced variable 'intervalDataset' may be NULL.
+./test8/org/jfree/chart/JFreeChart.java:1212: Value of referenced variable 'entities' may be NULL.
+./test8/org/jfree/chart/JFreeChart.java:1223: Value of referenced variable 'entities' may be NULL.
+./test8/org/jfree/chart/block/LabelBlock.java:352: Value of referenced variable 'ebp' may be NULL.
+./test8/org/jfree/chart/title/LegendGraphic.java:552: Value of referenced variable 'contentSize' may be NULL.
+./test8/org/jfree/chart/title/LegendGraphic.java:552: Value of referenced variable 'contentSize' may be NULL.
+./test8/org/jfree/chart/title/LegendTitle.java:532: Value of referenced variable 'params' may be NULL.
+./test8/org/jfree/chart/plot/MultiplePiePlot.java:490: Value of referenced variable 'subinfo' may be NULL.
+./test8/org/jfree/chart/plot/MultiplePiePlot.java:492: Value of referenced variable 'subinfo' may be NULL.
+./test8/org/jfree/chart/title/PaintScaleLegend.java:468: Value of referenced variable 'contentSize' may be NULL.
+./test8/org/jfree/chart/title/PaintScaleLegend.java:468: Value of referenced variable 'contentSize' may be NULL.
+./test8/org/jfree/chart/util/RelativeDateFormat.java:477: Result of operation / is always 0.
+./test8/org/jfree/chart/util/RelativeDateFormat.java:478: Zero operand for * operation.
+./test8/org/jfree/chart/util/RelativeDateFormat.java:478: Zero operand for - operation.
+./test8/org/jfree/chart/renderer/RendererUtilities.java:189: Zero operand for + operation.
+./test8/org/jfree/chart/renderer/RendererUtilities.java:207: Zero operand for + operation.
+./test8/org/jfree/chart/title/ShortTextTitle.java:124: Value of referenced variable 'contentSize' may be NULL.
+./test8/org/jfree/chart/title/ShortTextTitle.java:124: Value of referenced variable 'contentSize' may be NULL.
+./test8/org/jfree/chart/title/ShortTextTitle.java:128: Value of referenced variable 'contentSize' may be NULL.
+./test8/org/jfree/chart/title/ShortTextTitle.java:128: Value of referenced variable 'contentSize' may be NULL.
+./test8/org/jfree/chart/renderer/xy/StackedXYBarRenderer.java:390: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/StackedXYBarRenderer.java:390: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/title/TextTitle.java:519: Value of referenced variable 'contentSize' may be NULL.
+./test8/org/jfree/chart/title/TextTitle.java:519: Value of referenced variable 'contentSize' may be NULL.
+./test8/org/jfree/chart/title/TextTitle.java:702: Value of referenced variable 'p' may be NULL.
+./test8/org/jfree/data/time/TimeSeries.java:523: Comparison always produces the same result.
+./test8/org/jfree/data/time/Week.java:129: Comparison always produces the same result.
+./test8/org/jfree/data/time/Week.java:145: Comparison always produces the same result.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1012: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1051: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1052: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1053: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1054: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1055: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1056: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1057: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1059: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1060: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1061: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1062: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1063: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1064: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBarRenderer.java:1065: Value of referenced variable 'bar' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBubbleRenderer.java:262: Value of referenced variable 'circle' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBubbleRenderer.java:263: Value of referenced variable 'circle' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYBubbleRenderer.java:263: Value of referenced variable 'circle' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:426: Compared expressions can be equal only when both of them are 0.
+./test8/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:426: Compared expressions can be equal only when both of them are 0.
+./test8/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:585: Comparison always produces the same result.
+./test8/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:606: Comparison always produces the same result.
+./test8/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:756: Value of referenced variable 'l_intersectY' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:931: Value of referenced variable 'l_entities' may be NULL.
+./test8/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:945: Compared expressions can be equal only when both of them are 0.
+./test8/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:962: Value of referenced variable 'l_line' may be NULL.
+./test8/org/jfree/chart/plot/XYPlot.java:4476: Value of referenced variable 'rr' may be NULL.
+./test8/org/jfree/chart/renderer/xy/YIntervalRenderer.java:247: Value of referenced variable 'line' may be NULL.

@@ -1,0 +1,92 @@
+Verification completed: 0 reported messages.
+./test5/org/apache/commons/dbcp/AbandonedObjectPool.java:135: Maybe type cast is not correctly applied.
+Verification completed: 1 reported messages.
+./test5/org/apache/commons/dbcp/AbandonedTrace.java:211: Value of lock format is changed outside synchronization or constructor.
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+./test5/org/apache/commons/dbcp/BasicDataSource.java:1545: Method org/apache/commons/dbcp/BasicDataSource.validateConnectionFactory(org.apache.commons.dbcp.PoolableConnectionFactory) can be called from different threads and is not synchronized.
+Verification completed: 1 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+./test5/org/apache/commons/dbcp/managed/DataSourceXAConnectionFactory.java:47: Local variable 'xaDataSource' shadows component of class 'org/apache/commons/dbcp/managed/DataSourceXAConnectionFactory'.
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test5/org/apache/commons/dbcp/DelegatingCallableStatement.java:89: Method org/apache/commons/dbcp/DelegatingPreparedStatement.setDelegate(java.sql.PreparedStatement) is not overridden by method with the same name of derived class 'org/apache/commons/dbcp/DelegatingCallableStatement'.
+./test5/org/apache/commons/dbcp/DelegatingCallableStatement.java:74: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+./test5/org/apache/commons/dbcp/DelegatingPreparedStatement.java:88: Method org/apache/commons/dbcp/DelegatingStatement.setDelegate(java.sql.Statement) is not overridden by method with the same name of derived class 'org/apache/commons/dbcp/DelegatingPreparedStatement'.
+./test5/org/apache/commons/dbcp/DelegatingPreparedStatement.java:73: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test5/org/apache/commons/dbcp/datasources/InstanceKeyDataSource.java:716: Value of referenced variable 'password' may be NULL.
+./test5/org/apache/commons/dbcp/datasources/InstanceKeyDataSource.java:754: Value of referenced variable 'password' may be NULL.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+./test5/org/apache/commons/jocl/JOCLContentHandler.java:341: Value of referenced variable 'reader' may be NULL.
+./test5/org/apache/commons/jocl/JOCLContentHandler.java:342: Value of referenced variable 'reader' may be NULL.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 3 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+./test5/org/apache/commons/dbcp/cpdsadapter/PooledConnectionImpl.java:211: Method finalize() doesn't call super.finalize().
+Verification completed: 1 reported messages.
+java/util/Arrays.java:1: equals() was overridden but not hashCode().
+java/lang/Integer.java:2: equals() was overridden but not hashCode().
+Verification completed: 2 reported messages.
+Verification completed: 0 reported messages.
+./test5/org/apache/commons/dbcp/PoolingConnection.java:93: Loop 1: invocation of synchronized method org/apache/commons/dbcp/PoolingConnection.close() can cause deadlock.
+Verification completed: 1 reported messages.
+java/lang/Integer.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+java/lang/Object.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+./test5/org/apache/commons/dbcp/datasources/PoolKey.java:49: Zero operand for + operation.
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+java/lang/String.java:1: equals() was overridden but not hashCode().
+Verification completed: 1 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
+Verification completed: 0 reported messages.
