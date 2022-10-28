@@ -1,0 +1,853 @@
+Starting ClassTester at Thu Oct 27 23:53:11 CDT 2022
+No specific CUT methods selected
+TypeManager has indexed 45 classes
+Testing org.apache.commons.dbcp.datasources.SharedPoolDataSource with seed 3
+New prefix:
+final org.apache.commons.dbcp.datasources.SharedPoolDataSource var0 = new org.apache.commons.dbcp.datasources.SharedPoolDataSource();
+final boolean var1 = var0.getTestWhileIdle();
+final int var2 = var0.getMaxWait();
+final java.lang.String var3 = var0.getValidationQuery();
+final int var4 = var0.getTimeBetweenEvictionRunsMillis();
+final boolean var5 = var0.isTestOnReturn();
+
+New suffix 
+final int var6 = var0.getMaxWait();
+var0.setNumTestsPerEvictionRun((int) 0);
+
+Nb generated tests: 1
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New prefix:
+final org.apache.commons.dbcp.datasources.SharedPoolDataSource var0 = new org.apache.commons.dbcp.datasources.SharedPoolDataSource();
+final boolean var1 = var0.getTestOnReturn();
+final int var2 = var0.getNumIdle();
+final java.lang.String var3 = var0.getJndiEnvironment((java.lang.String) null);
+final java.lang.String var4 = var0.getDataSourceName();
+var0.setTestOnReturn((boolean) var1);
+
+New suffix 
+final boolean var5 = var0.getTestWhileIdle();
+var0.setLoginTimeout((int) 100);
+
+Nb generated tests: 2
+==== Starting Java scheduler-based execution ====
+New prefix:
+final org.apache.commons.dbcp.datasources.SharedPoolDataSource var0 = new org.apache.commons.dbcp.datasources.SharedPoolDataSource();
+var0.setDefaultReadOnly((boolean) false);
+var0.setTestOnBorrow((boolean) false);
+final int var1 = var0.getNumIdle();
+final int var2 = var0.getMaxWait();
+var0.setNumTestsPerEvictionRun((int) 100);
+
+New suffix 
+var0.setRollbackAfterValidation((boolean) true);
+var0.setLoginTimeout((int) 100);
+
+Nb generated tests: 3
+==== Starting Java scheduler-based execution ====
+New prefix:
+final org.apache.commons.dbcp.datasources.SharedPoolDataSource var0 = new org.apache.commons.dbcp.datasources.SharedPoolDataSource();
+final java.lang.String var1 = var0.getJndiEnvironment((java.lang.String) "K3");
+var0.setDataSourceName((java.lang.String) var1);
+final java.lang.String var2 = var0.getDescription();
+final javax.sql.ConnectionPoolDataSource var3 = var0.getConnectionPoolDataSource();
+final boolean var4 = var0.isDefaultAutoCommit();
+
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final boolean var5 = var0.getTestOnReturn();
+final boolean var6 = var0.isDefaultAutoCommit();
+
+Nb generated tests: 4
+==== Starting Java scheduler-based execution ====
+New prefix:
+final org.apache.commons.dbcp.datasources.SharedPoolDataSource var0 = new org.apache.commons.dbcp.datasources.SharedPoolDataSource();
+final boolean var1 = var0.getTestOnBorrow();
+final boolean var2 = var0.getTestOnReturn();
+var0.setDefaultReadOnly((boolean) var1);
+final boolean var3 = var0.getTestWhileIdle();
+final int var4 = var0.getNumActive();
+
+New suffix 
+final boolean var5 = var0.isTestWhileIdle();
+final boolean var6 = var0.isDefaultReadOnly();
+
+Nb generated tests: 5
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.setTestWhileIdle((boolean) false);
+final boolean var6 = var0.isWrapperFor((java.lang.Class) null);
+
+Nb generated tests: 6
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 7
+==== Starting Java scheduler-based execution ====
+New suffix 
+final int var5 = var0.getNumIdle();
+var0.setLogWriter((java.io.PrintWriter) null);
+
+Nb generated tests: 8
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 9
+==== Starting Java scheduler-based execution ====
+New suffix 
+final boolean var5 = var0.getTestWhileIdle();
+final javax.naming.Reference var6 = var0.getReference();
+
+Nb generated tests: 10
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 11
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 12
+==== Starting Java scheduler-based execution ====
+New suffix 
+final int var5 = var0.getDefaultTransactionIsolation();
+var0.close();
+
+Nb generated tests: 13
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 14
+==== Starting Java scheduler-based execution ====
+New suffix 
+final int var5 = var0.getNumActive();
+final boolean var6 = var0.isTestWhileIdle();
+
+Nb generated tests: 15
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 16
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 17
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setMaxWait((int) var2);
+var0.setNumTestsPerEvictionRun((int) -1);
+
+Nb generated tests: 18
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 19
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 20
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 21
+==== Starting Java scheduler-based execution ====
+New suffix 
+final java.lang.String var5 = var0.getValidationQuery();
+var0.setMaxWait((int) var2);
+
+Nb generated tests: 22
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 23
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 24
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 25
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 26
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 59
+   Failed         : 3
+Concurrent runs: 2600
+   Succeeded   : 2600
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 24
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   7 -- GetParamTask for int
+   6 -- GetParamTask for boolean
+   5 -- GetParamTask for java.lang.String
+   1 -- GetParamTask for java.lang.Class
+   1 -- GetParamTask for java.io.PrintWriter
+Tasks failed:
+Null parameters:
+   1 -- java.io.File
+   1 -- org.xml.sax.XMLReader
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+12090 --- conc_exec
+422 --- gen
+330 --- candExec
+-----------(end)
+New suffix 
+final boolean var5 = var0.isDefaultReadOnly();
+var0.setTestOnBorrow((boolean) var5);
+
+Nb generated tests: 27
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 28
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 29
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 30
+==== Starting Java scheduler-based execution ====
+New suffix 
+final int var5 = var0.getTimeBetweenEvictionRunsMillis();
+final javax.sql.ConnectionPoolDataSource var6 = var0.getConnectionPoolDataSource();
+
+Nb generated tests: 31
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 32
+==== Starting Java scheduler-based execution ====
+New suffix 
+final boolean var5 = var0.isDefaultAutoCommit();
+final int var6 = var0.getMinEvictableIdleTimeMillis();
+
+Nb generated tests: 33
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 34
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 35
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setTestOnReturn((boolean) false);
+var0.setRollbackAfterValidation((boolean) false);
+
+Nb generated tests: 36
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 37
+==== Starting Java scheduler-based execution ====
+New suffix 
+final int var5 = var0.getNumTestsPerEvictionRun();
+var0.setValidationQuery((java.lang.String) "");
+
+Nb generated tests: 38
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 39
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 40
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 41
+==== Starting Java scheduler-based execution ====
+New suffix 
+final javax.naming.Reference var5 = var0.getReference();
+var0.close();
+
+Nb generated tests: 42
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 43
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 44
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 45
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 46
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 71
+   Failed         : 3
+Concurrent runs: 4600
+   Succeeded   : 4600
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 36
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   9 -- GetParamTask for boolean
+   7 -- GetParamTask for int
+   6 -- GetParamTask for java.lang.String
+   1 -- GetParamTask for java.lang.Class
+   1 -- GetParamTask for java.io.PrintWriter
+Tasks failed:
+Null parameters:
+   1 -- java.io.File
+   1 -- org.xml.sax.XMLReader
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+22000 --- conc_exec
+481 --- gen
+387 --- candExec
+-----------(end)
+New suffix 
+var0.setMaxWait((int) 1);
+var0.setDataSourceName((java.lang.String) null);
+
+Nb generated tests: 47
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 48
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 49
+==== Starting Java scheduler-based execution ====
+New suffix 
+final boolean var5 = var0.getTestOnReturn();
+var0.setTestOnBorrow((boolean) var4);
+
+Nb generated tests: 50
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 51
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 52
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 53
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 54
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 55
+==== Starting Java scheduler-based execution ====
+New suffix 
+final boolean var5 = var0.isRollbackAfterValidation();
+final int var6 = var0.getTimeBetweenEvictionRunsMillis();
+
+Nb generated tests: 56
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 57
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 58
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 59
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 60
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 76
+   Failed         : 3
+Concurrent runs: 6000
+   Succeeded   : 6000
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 42
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   10 -- GetParamTask for boolean
+   8 -- GetParamTask for int
+   7 -- GetParamTask for java.lang.String
+   1 -- GetParamTask for java.lang.Class
+   1 -- GetParamTask for java.io.PrintWriter
+Tasks failed:
+Null parameters:
+   1 -- java.io.File
+   1 -- org.xml.sax.XMLReader
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+29302 --- conc_exec
+588 --- gen
+482 --- candExec
+-----------(end)
+New suffix 
+var0.setTestOnBorrow((boolean) true);
+final java.lang.String var5 = var0.getDescription();
+
+Nb generated tests: 61
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 62
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 63
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 64
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 65
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 66
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final javax.naming.Reference var6 = var0.getReference();
+var0.setDataSourceName((java.lang.String) var3);
+
+Nb generated tests: 67
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 68
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 69
+==== Starting Java scheduler-based execution ====
+New suffix 
+final boolean var5 = var0.getTestOnBorrow();
+var0.setMaxActive((int) 3);
+
+Nb generated tests: 70
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 71
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 72
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 73
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 74
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 75
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 76
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setMaxActive((int) -1);
+var0.setValidationQuery((java.lang.String) "");
+
+Nb generated tests: 77
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 78
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 79
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 80
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 81
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 82
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 83
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 84
+==== Starting Java scheduler-based execution ====
+New suffix 
+final java.lang.String var3 = var0.getJndiEnvironment((java.lang.String) null);
+var0.setConnectionPoolDataSource((javax.sql.ConnectionPoolDataSource) null);
+
+Nb generated tests: 85
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 86
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 87
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 88
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.close();
+var0.setMaxWait((int) -2);
+
+Nb generated tests: 89
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 90
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 91
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 92
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setDefaultReadOnly((boolean) var2);
+var0.setRollbackAfterValidation((boolean) true);
+
+Nb generated tests: 93
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 94
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 95
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 96
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 97
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 98
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setMaxWait((int) -100);
+var0.setDefaultReadOnly((boolean) true);
+
+Nb generated tests: 99
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 100
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 101
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 102
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 103
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 96
+   Failed         : 5
+Concurrent runs: 10300
+   Succeeded   : 10300
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 58
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   14 -- GetParamTask for boolean
+   13 -- GetParamTask for int
+   12 -- GetParamTask for java.lang.String
+   1 -- GetParamTask for javax.sql.ConnectionPoolDataSource
+   1 -- GetParamTask for java.lang.Class
+Tasks failed:
+Null parameters:
+   1 -- java.io.File
+   1 -- org.xml.sax.XMLReader
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+55353 --- conc_exec
+915 --- gen
+792 --- candExec
+-----------(end)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final boolean var5 = var0.getTestWhileIdle();
+final int var6 = var0.getMaxIdle();
+
+Nb generated tests: 104
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 105
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 106
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 107
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 108
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 109
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 110
+==== Starting Java scheduler-based execution ====
+New suffix 
+final boolean var3 = var0.getTestWhileIdle();
+final int var4 = var0.getMaxActive();
+
+Nb generated tests: 111
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 112
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 113
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 114
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 115
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 116
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final boolean var6 = var0.isRollbackAfterValidation();
+final int var7 = var0.getMaxWait();
+
+Nb generated tests: 117
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 118
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 119
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 120
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 121
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 103
+   Failed         : 7
+Concurrent runs: 12100
+   Succeeded   : 12100
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 64
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   14 -- GetParamTask for boolean
+   14 -- GetParamTask for int
+   14 -- GetParamTask for java.lang.String
+   1 -- GetParamTask for javax.sql.ConnectionPoolDataSource
+   1 -- GetParamTask for java.lang.Class
+Tasks failed:
+Null parameters:
+   1 -- java.io.File
+   1 -- org.xml.sax.XMLReader
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+67227 --- conc_exec
+1057 --- gen
+931 --- candExec
+-----------(end)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final int var5 = var0.getNumIdle();
+var0.setLogWriter((java.io.PrintWriter) null);
+
+Nb generated tests: 122
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 123
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 124
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 125
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 126
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 127
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 128
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setTimeBetweenEvictionRunsMillis((int) var1);
+final int var3 = var0.getNumTestsPerEvictionRun();
+
+Nb generated tests: 129
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 130
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 131
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 132
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 133
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 134
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 135
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setRollbackAfterValidation((boolean) false);
+final boolean var3 = var0.isDefaultReadOnly();
+
+Nb generated tests: 136
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 137
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 138
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 139
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 140
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 141
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 142
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 143
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setDescription((java.lang.String) var3);
+final int var6 = var0.getMaxIdle();
+
+Nb generated tests: 144
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 145
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 146
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 147
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 148
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 149
+==== Starting Java scheduler-based execution ====
+New suffix 
+final int var6 = var0.getMaxWait();
+final int var7 = var0.getMaxActive();
+
+Nb generated tests: 150
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 151
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 152
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 153
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 154
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 155
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 156
+==== Starting Java scheduler-based execution ====
+New suffix 
+final boolean var6 = var0.isDefaultAutoCommit();
+final int var7 = var0.getMaxWait();
+
+Nb generated tests: 157
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 158
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 159
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 160
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 161
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 162
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 163
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 164
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setRollbackAfterValidation((boolean) true);
+final boolean var5 = var0.getTestOnBorrow();
+
+Nb generated tests: 165
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 166
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 167
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 168
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 169
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 170
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 171
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 172
+==== Starting Java scheduler-based execution ====
+New suffix 
+final int var5 = var0.getMaxActive();
+final int var6 = var0.getNumActive();
+
+Nb generated tests: 173
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 174
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 175
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 176
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 177
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 178
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 179
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 180
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 181
+==== Starting Java scheduler-based execution ====
+New suffix 
+final int var6 = var0.getTimeBetweenEvictionRunsMillis();
+final boolean var7 = var0.isRollbackAfterValidation();
+
+Nb generated tests: 182
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 183
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 184
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 185
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 186
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 187
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 188
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 189
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 190
+==== Starting Java scheduler-based execution ====
+New suffix 
+final int var5 = var0.getNumTestsPerEvictionRun();
+final boolean var6 = var0.getTestOnReturn();
+
+Nb generated tests: 191
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 192
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 193
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 194
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 195
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 196
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 197
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 198
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setNumTestsPerEvictionRun((int) -100);
+final int var5 = var0.getDefaultTransactionIsolation();
+
+Nb generated tests: 199
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 200
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 201
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 202
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 203
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 204
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 205
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 206
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 207
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setDataSourceName((java.lang.String) var1);
+final int var5 = var0.getMaxIdle();
+
+Nb generated tests: 208
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 209
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 210
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 211
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 212
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+
+=== Statistics:  ===
+Executed sequences: 133
+   Failed         : 9
+Concurrent runs: 21101
+   Succeeded   : 21100
+   Failed      : 1
+Sequential interleavings: 6
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 88
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   16 -- GetParamTask for boolean
+   16 -- GetParamTask for int
+   16 -- GetParamTask for java.lang.String
+   2 -- GetParamTask for java.io.PrintWriter
+   1 -- GetParamTask for javax.sql.ConnectionPoolDataSource
+Tasks failed:
+Null parameters:
+   1 -- java.io.File
+   1 -- org.xml.sax.XMLReader
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+157731 --- all
+144299 --- conc_exec
+10251 --- gen
+9281 --- candExec
+-----------(end)
+Done with ClassTester at Thu Oct 27 23:55:49 CDT 2022

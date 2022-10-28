@@ -1,0 +1,1288 @@
+Starting ClassTester at Thu Oct 27 23:53:21 CDT 2022
+No specific CUT methods selected
+TypeManager has indexed 2 classes
+Testing org.jfree.chart.axis.PeriodAxis with seed 3
+New prefix:
+final org.jfree.chart.axis.PeriodAxis var0 = new org.jfree.chart.axis.PeriodAxis((java.lang.String) null);
+final org.jfree.data.time.RegularTimePeriod var1 = var0.getLast();
+final java.util.TimeZone var2 = var0.getTimeZone();
+final org.jfree.chart.axis.PeriodAxis var3 = new org.jfree.chart.axis.PeriodAxis((java.lang.String) null, (org.jfree.data.time.RegularTimePeriod) var1, (org.jfree.data.time.RegularTimePeriod) var1, (java.util.TimeZone) var2);
+final java.awt.Paint var4 = var3.getMinorTickMarkPaint();
+final java.awt.Paint var5 = org.jfree.chart.axis.Axis.DEFAULT_AXIS_LINE_PAINT;
+var3.setTickMarkPaint((java.awt.Paint) var5);
+final double var6 = var3.getFixedAutoRange();
+final org.jfree.data.time.RegularTimePeriod var7 = var3.getFirst();
+var3.setRange((double) -0.1d, (double) var6);
+
+New suffix 
+final java.awt.Stroke var8 = var3.getMinorTickMarkStroke();
+final float var9 = var3.getTickMarkOutsideLength();
+
+Nb generated tests: 1
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New prefix:
+final org.jfree.chart.axis.PeriodAxis var0 = new org.jfree.chart.axis.PeriodAxis((java.lang.String) "");
+final org.jfree.chart.axis.PeriodAxis var1 = new org.jfree.chart.axis.PeriodAxis((java.lang.String) null);
+final org.jfree.data.time.RegularTimePeriod var2 = var1.getLast();
+final org.jfree.chart.axis.PeriodAxis var3 = new org.jfree.chart.axis.PeriodAxis((java.lang.String) null, (org.jfree.data.time.RegularTimePeriod) var2, (org.jfree.data.time.RegularTimePeriod) var2);
+final java.lang.Class var4 = var3.getMajorTickTimePeriodClass();
+var0.setMajorTickTimePeriodClass((java.lang.Class) var4);
+final org.jfree.data.Range var5 = org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE;
+var0.setRangeWithMargins((org.jfree.data.Range) var5);
+var0.setVerticalTickLabels((boolean) true);
+final java.awt.Paint var6 = org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT;
+var0.setTickLabelPaint((java.awt.Paint) var6);
+final org.jfree.chart.axis.PeriodAxis var7 = new org.jfree.chart.axis.PeriodAxis((java.lang.String) null);
+final org.jfree.data.time.RegularTimePeriod var8 = var7.getFirst();
+var0.setFirst((org.jfree.data.time.RegularTimePeriod) var8);
+
+New suffix 
+final java.awt.Paint var9 = org.jfree.chart.axis.Axis.DEFAULT_TICK_LABEL_PAINT;
+var0.setLabelPaint((java.awt.Paint) var9);
+final org.jfree.data.time.RegularTimePeriod var10 = var0.getLast();
+
+Nb generated tests: 2
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New prefix:
+final org.jfree.chart.axis.PeriodAxis var0 = new org.jfree.chart.axis.PeriodAxis((java.lang.String) "");
+final int var1 = var0.hashCode();
+final java.awt.Shape var2 = var0.getLeftArrow();
+final java.awt.Paint var3 = var0.getMinorTickMarkPaint();
+var0.setTickMarkOutsideLength((float) -0.1f);
+final double var4 = var0.getLowerBound();
+
+New suffix 
+final java.lang.Class var5 = var0.getMinorTickTimePeriodClass();
+final org.jfree.chart.axis.PeriodAxisLabelInfo[] var6 = var0.getLabelInfo();
+
+Nb generated tests: 3
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.ClassCastException
+New prefix:
+final org.jfree.chart.axis.PeriodAxis var0 = new org.jfree.chart.axis.PeriodAxis((java.lang.String) null);
+var0.setRange((double) -100.0d, (double) 3.0d);
+final java.awt.Paint var1 = var0.getTickLabelPaint();
+final double var2 = var0.lengthToJava2D((double) 3.0d, (java.awt.geom.Rectangle2D) null, (org.jfree.ui.RectangleEdge) null);
+var0.setNegativeArrowVisible((boolean) true);
+var0.setFixedDimension((double) 1.0d);
+
+New suffix 
+var0.setMinorTickMarkInsideLength((float) -2.0f);
+final java.awt.Shape var3 = var0.getRightArrow();
+
+Nb generated tests: 4
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Reached maxTries (10)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New prefix:
+final org.jfree.chart.axis.PeriodAxis var0 = new org.jfree.chart.axis.PeriodAxis((java.lang.String) null);
+final org.jfree.data.time.RegularTimePeriod var1 = var0.getFirst();
+final org.jfree.chart.axis.PeriodAxis var2 = new org.jfree.chart.axis.PeriodAxis((java.lang.String) null, (org.jfree.data.time.RegularTimePeriod) var1, (org.jfree.data.time.RegularTimePeriod) var1, (java.util.TimeZone) null);
+var2.removeChangeListener((org.jfree.chart.event.AxisChangeListener) null);
+final java.lang.Class var3 = var2.getMinorTickTimePeriodClass();
+final java.awt.Paint var4 = var2.getTickLabelPaint();
+var2.setPositiveArrowVisible((boolean) false);
+var2.setMinorTickTimePeriodClass((java.lang.Class) var3);
+
+New suffix 
+var2.setFixedAutoRange((double) -1.0d);
+final boolean var5 = var2.isNegativeArrowVisible();
+
+Nb generated tests: 5
+==== Starting Java scheduler-based execution ====
+New suffix 
+final java.awt.Paint var5 = var2.getTickLabelPaint();
+var2.centerRange((double) -100.0d);
+
+Nb generated tests: 6
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 7
+==== Starting Java scheduler-based execution ====
+New suffix 
+var2.setRangeWithMargins((double) -1.0d, (double) -1.0d);
+final org.jfree.chart.axis.PeriodAxisLabelInfo[] var5 = var0.getLabelInfo();
+var2.setLabelInfo((org.jfree.chart.axis.PeriodAxisLabelInfo[]) var5);
+
+Nb generated tests: 8
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 9
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 10
+==== Starting Java scheduler-based execution ====
+New suffix 
+final java.awt.Stroke var8 = var3.getAxisLineStroke();
+var3.setAxisLineVisible((boolean) false);
+
+Nb generated tests: 11
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 12
+==== Starting Java scheduler-based execution ====
+New suffix 
+final java.awt.Stroke var8 = var3.getTickMarkStroke();
+final java.lang.Class var9 = var3.getMinorTickTimePeriodClass();
+
+Nb generated tests: 13
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 14
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 15
+==== Starting Java scheduler-based execution ====
+New suffix 
+var3.setUpperBound((double) var6);
+final java.lang.String var8 = var3.getLabel();
+
+Nb generated tests: 16
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 17
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 18
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 19
+==== Starting Java scheduler-based execution ====
+New suffix 
+final java.awt.Paint var3 = var0.getTickMarkPaint();
+var0.setInverted((boolean) false);
+
+Nb generated tests: 20
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 21
+==== Starting Java scheduler-based execution ====
+New suffix 
+var3.setTickLabelPaint((java.awt.Paint) var5);
+var3.setTickMarkInsideLength((float) 3.0f);
+
+Nb generated tests: 22
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 23
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 24
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 25
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 26
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 121
+   Failed         : 22
+Concurrent runs: 2600
+   Succeeded   : 2600
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 24
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   19 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+   14 -- GetParamTask for double
+   12 -- GetParamTask for java.lang.String
+   7 -- GetParamTask for java.awt.Paint
+   6 -- GetParamTask for java.util.TimeZone
+Tasks failed:
+   1 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+Null parameters:
+   1 -- java.awt.geom.Rectangle2D
+   1 -- org.jfree.chart.plot.PlotRenderingInfo
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+17479 --- conc_exec
+1423 --- gen
+1158 --- candExec
+-----------(end)
+New suffix 
+var0.centerRange((double) -1.0d);
+final org.jfree.data.time.RegularTimePeriod var9 = var0.getLast();
+
+Nb generated tests: 27
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 28
+==== Starting Java scheduler-based execution ====
+New suffix 
+final boolean var3 = var0.isTickLabelsVisible();
+var0.removeChangeListener((org.jfree.chart.event.AxisChangeListener) null);
+
+Nb generated tests: 29
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 30
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 31
+==== Starting Java scheduler-based execution ====
+New suffix 
+final java.lang.Class var3 = var0.getMinorTickTimePeriodClass();
+var0.setMinorTickMarkInsideLength((float) -3.0f);
+
+Nb generated tests: 32
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 33
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 34
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 35
+==== Starting Java scheduler-based execution ====
+New suffix 
+final boolean var3 = var0.isTickLabelsVisible();
+var0.addChangeListener((org.jfree.chart.event.AxisChangeListener) null);
+
+Nb generated tests: 36
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 37
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 38
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 39
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 40
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 129
+   Failed         : 22
+Concurrent runs: 4000
+   Succeeded   : 4000
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 32
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   19 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+   15 -- GetParamTask for double
+   12 -- GetParamTask for java.lang.String
+   7 -- GetParamTask for java.awt.Paint
+   6 -- GetParamTask for java.util.TimeZone
+Tasks failed:
+   1 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+Null parameters:
+   1 -- java.awt.geom.Rectangle2D
+   1 -- org.jfree.chart.plot.PlotRenderingInfo
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+25629 --- conc_exec
+1497 --- gen
+1230 --- candExec
+-----------(end)
+Sequences crashes: java.lang.ClassCastException
+Sequences crashes: java.lang.ClassCastException
+New suffix 
+final double var9 = var0.java2DToValue((double) 0.1d, (java.awt.geom.Rectangle2D) null, (org.jfree.ui.RectangleEdge) null);
+var0.setMinorTickMarksVisible((boolean) true);
+
+Nb generated tests: 41
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 42
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 43
+==== Starting Java scheduler-based execution ====
+New suffix 
+final double var8 = var3.getLowerBound();
+var3.setMinorTickMarkOutsideLength((float) 0.1f);
+
+Nb generated tests: 44
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 45
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 46
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 47
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 48
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 49
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.ClassCastException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var2.setMinorTickMarkPaint((java.awt.Paint) var4);
+final org.jfree.ui.RectangleInsets var5 = var2.getTickLabelInsets();
+
+Nb generated tests: 50
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 51
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 52
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 53
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.setTickMarksVisible((boolean) true);
+final double var9 = var0.getLowerMargin();
+
+Nb generated tests: 54
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 55
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 56
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 57
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final boolean var3 = var0.isTickMarksVisible();
+var0.setMinorTickMarkInsideLength((float) 2.0f);
+
+Nb generated tests: 58
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 59
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 60
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 61
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 62
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 63
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setAutoTickUnitSelection((boolean) true);
+var0.setFixedDimension((double) var2);
+
+Nb generated tests: 64
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 65
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 66
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 67
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 68
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 69
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 70
+==== Starting Java scheduler-based execution ====
+New suffix 
+final java.awt.Paint var5 = var0.getMinorTickMarkPaint();
+var0.setLeftArrow((java.awt.Shape) var2);
+
+Nb generated tests: 71
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 72
+==== Starting Java scheduler-based execution ====
+New suffix 
+final org.jfree.chart.axis.PeriodAxisLabelInfo[] var5 = var0.getLabelInfo();
+var2.setLabelInfo((org.jfree.chart.axis.PeriodAxisLabelInfo[]) var5);
+var2.setFirst((org.jfree.data.time.RegularTimePeriod) var1);
+
+Nb generated tests: 73
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 74
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 75
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 76
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 77
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 155
+   Failed         : 31
+Concurrent runs: 7700
+   Succeeded   : 7700
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 48
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   20 -- GetParamTask for double
+   20 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+   12 -- GetParamTask for java.lang.String
+   9 -- GetParamTask for java.awt.Paint
+   8 -- GetParamTask for boolean
+Tasks failed:
+   1 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+Null parameters:
+   1 -- java.awt.geom.Rectangle2D
+   1 -- org.jfree.ui.RectangleEdge
+   1 -- org.jfree.chart.plot.PlotRenderingInfo
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+55443 --- conc_exec
+2360 --- gen
+2076 --- candExec
+-----------(end)
+Sequences crashes: java.lang.ClassCastException
+New suffix 
+final double var9 = var0.lengthToJava2D((double) 2.0d, (java.awt.geom.Rectangle2D) null, (org.jfree.ui.RectangleEdge) null);
+var0.setRange((org.jfree.data.Range) var5, (boolean) false, (boolean) true);
+
+Nb generated tests: 78
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 79
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 80
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 81
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 82
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 158
+   Failed         : 32
+Concurrent runs: 8200
+   Succeeded   : 8200
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 50
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   21 -- GetParamTask for double
+   20 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+   12 -- GetParamTask for java.lang.String
+   10 -- GetParamTask for boolean
+   9 -- GetParamTask for java.awt.Paint
+Tasks failed:
+   1 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+Null parameters:
+   1 -- java.awt.geom.Rectangle2D
+   1 -- org.jfree.ui.RectangleEdge
+   1 -- org.jfree.chart.plot.PlotRenderingInfo
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+60061 --- conc_exec
+2629 --- gen
+2339 --- candExec
+-----------(end)
+New suffix 
+final java.awt.Shape var3 = var0.getLeftArrow();
+var0.setVisible((boolean) true);
+
+Nb generated tests: 83
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 84
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 85
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 86
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 87
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 88
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 89
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 90
+==== Starting Java scheduler-based execution ====
+New suffix 
+var3.setLabelInfo((org.jfree.chart.axis.PeriodAxisLabelInfo[]) null);
+final double var8 = var3.java2DToValue((double) 1.0d, (java.awt.geom.Rectangle2D) null, (org.jfree.ui.RectangleEdge) null);
+
+Nb generated tests: 91
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 92
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 93
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 94
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 95
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 96
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 97
+==== Starting Java scheduler-based execution ====
+New suffix 
+final java.awt.Font var9 = var0.getLabelFont();
+var0.setMinorTickMarksVisible((boolean) true);
+
+Nb generated tests: 98
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 99
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 100
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 101
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 102
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 103
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setRangeWithMargins((double) 1.0d, (double) 3.0d);
+var0.setFirst((org.jfree.data.time.RegularTimePeriod) var8);
+
+Nb generated tests: 104
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 105
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 106
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 107
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 108
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 109
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 110
+==== Starting Java scheduler-based execution ====
+New suffix 
+final double var9 = var0.valueToJava2D((double) -100.0d, (java.awt.geom.Rectangle2D) null, (org.jfree.ui.RectangleEdge) null);
+final java.lang.Class var10 = var0.getMinorTickTimePeriodClass();
+
+Nb generated tests: 111
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 112
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 113
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 114
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 115
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 116
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 117
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 118
+==== Starting Java scheduler-based execution ====
+New suffix 
+final float var3 = var0.getMinorTickMarkOutsideLength();
+final java.awt.Font var4 = org.jfree.chart.axis.Axis.DEFAULT_AXIS_LABEL_FONT;
+var0.setLabelFont((java.awt.Font) var4);
+
+Nb generated tests: 119
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 120
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 121
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 122
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 123
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 124
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 125
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 126
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 127
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.removeChangeListener((org.jfree.chart.event.AxisChangeListener) null);
+var0.centerRange((double) var2);
+
+Nb generated tests: 128
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 129
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 130
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 131
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 132
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 133
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 134
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 135
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 136
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 137
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 173
+   Failed         : 32
+Concurrent runs: 13700
+   Succeeded   : 13700
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 64
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   26 -- GetParamTask for double
+   21 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+   12 -- GetParamTask for boolean
+   12 -- GetParamTask for java.lang.String
+   9 -- GetParamTask for java.awt.Paint
+Tasks failed:
+   1 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+Null parameters:
+   2 -- java.awt.geom.Rectangle2D
+   1 -- org.jfree.ui.RectangleEdge
+   1 -- org.jfree.chart.plot.PlotRenderingInfo
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+125754 --- conc_exec
+5432 --- gen
+4320 --- candExec
+-----------(end)
+New suffix 
+var3.setUpperBound((double) -1.0d);
+var3.setRangeWithMargins((double) 0.0d, (double) 0.1d);
+
+Nb generated tests: 138
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 139
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 140
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 141
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 142
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 143
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 144
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 145
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var3.setMinorTickMarkOutsideLength((float) 100.0f);
+final double var8 = var3.getLowerMargin();
+
+Nb generated tests: 146
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 147
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 148
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 149
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 150
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 151
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 152
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 153
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 154
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var2.setFirst((org.jfree.data.time.RegularTimePeriod) var1);
+final java.lang.Class var5 = var2.getMajorTickTimePeriodClass();
+
+Nb generated tests: 155
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 156
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 157
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 158
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 159
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 160
+==== Starting Java scheduler-based execution ====
+New suffix 
+var2.setFixedAutoRange((double) 0.0d);
+final java.awt.Shape var5 = var2.getUpArrow();
+
+Nb generated tests: 161
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 162
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 163
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 164
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 165
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 166
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 167
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.ClassCastException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final org.jfree.chart.axis.PeriodAxisLabelInfo[] var9 = var1.getLabelInfo();
+var0.setLabelInfo((org.jfree.chart.axis.PeriodAxisLabelInfo[]) var9);
+var0.setLabelInfo((org.jfree.chart.axis.PeriodAxisLabelInfo[]) var9);
+
+Nb generated tests: 168
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 169
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 170
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 171
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 172
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 173
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 174
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 175
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 176
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.ClassCastException
+New suffix 
+var0.setFixedDimension((double) -100.0d);
+final double var9 = var0.java2DToValue((double) -1.0d, (java.awt.geom.Rectangle2D) null, (org.jfree.ui.RectangleEdge) null);
+
+Nb generated tests: 177
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 178
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 179
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 180
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 181
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 182
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 183
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 184
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 185
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 186
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 194
+   Failed         : 39
+Concurrent runs: 18600
+   Succeeded   : 18600
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 76
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   32 -- GetParamTask for double
+   22 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+   12 -- GetParamTask for boolean
+   12 -- GetParamTask for java.lang.String
+   10 -- GetParamTask for java.awt.geom.Rectangle2D
+Tasks failed:
+   1 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+Null parameters:
+   3 -- org.jfree.ui.RectangleEdge
+   2 -- java.awt.geom.Rectangle2D
+   1 -- java.awt.Graphics2D
+   1 -- org.jfree.chart.plot.PlotRenderingInfo
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+178636 --- conc_exec
+13653 --- gen
+12450 --- candExec
+-----------(end)
+New suffix 
+final float var9 = var0.getTickMarkOutsideLength();
+var0.setMinorTickMarkInsideLength((float) 2.0f);
+
+Nb generated tests: 187
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 188
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 189
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 190
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 191
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 192
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 193
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 194
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 195
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 196
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 197
+==== Starting Java scheduler-based execution ====
+New suffix 
+var3.setMinorTickMarkInsideLength((float) -3.0f);
+final java.lang.Class var8 = var3.getMinorTickTimePeriodClass();
+
+Nb generated tests: 198
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 199
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 200
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 201
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 202
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 203
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 204
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 205
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 206
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 207
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 198
+   Failed         : 39
+Concurrent runs: 20700
+   Succeeded   : 20700
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 80
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   32 -- GetParamTask for double
+   22 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+   12 -- GetParamTask for boolean
+   12 -- GetParamTask for java.lang.String
+   10 -- GetParamTask for java.awt.geom.Rectangle2D
+Tasks failed:
+   1 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+Null parameters:
+   3 -- org.jfree.ui.RectangleEdge
+   2 -- java.awt.geom.Rectangle2D
+   1 -- java.awt.Graphics2D
+   1 -- org.jfree.chart.plot.PlotRenderingInfo
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+202043 --- conc_exec
+14750 --- gen
+13542 --- candExec
+-----------(end)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final int var5 = var0.hashCode();
+var0.setMinorTickMarksVisible((boolean) true);
+
+Nb generated tests: 208
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 209
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 210
+==== Starting Java scheduler-based execution ====
+New suffix 
+final org.jfree.data.Range var8 = var3.getRange();
+var3.setMinorTickMarksVisible((boolean) true);
+
+Nb generated tests: 211
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 212
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 213
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 214
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 215
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 216
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 217
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 218
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 219
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 220
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 221
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.setAutoRange((boolean) true);
+var0.setTickMarkOutsideLength((float) 2.0f);
+
+Nb generated tests: 222
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 223
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 224
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 225
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 226
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 227
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 228
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 229
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 230
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 231
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 232
+==== Starting Java scheduler-based execution ====
+New suffix 
+var2.setTickMarkOutsideLength((float) 1.0f);
+final java.awt.Shape var5 = var2.getLeftArrow();
+
+Nb generated tests: 233
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 234
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 235
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 236
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 237
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 238
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 239
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 240
+==== Starting Java scheduler-based execution ====
+New suffix 
+final java.awt.Stroke var8 = var3.getAxisLineStroke();
+final java.awt.Stroke var9 = var3.getMinorTickMarkStroke();
+
+Nb generated tests: 241
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 242
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 243
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 244
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 245
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 246
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 247
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 248
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 249
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 250
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 251
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 252
+==== Starting Java scheduler-based execution ====
+New suffix 
+final org.jfree.chart.axis.TickUnitSource var5 = var2.getStandardTickUnits();
+var2.setVerticalTickLabels((boolean) false);
+
+Nb generated tests: 253
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 254
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 255
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 256
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 257
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 258
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 259
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 260
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 261
+==== Starting Java scheduler-based execution ====
+New suffix 
+var2.setTickLabelPaint((java.awt.Paint) var4);
+final boolean var5 = var2.isInverted();
+
+Nb generated tests: 262
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 263
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 264
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 265
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 266
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 267
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 268
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 269
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 270
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 271
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 214
+   Failed         : 41
+Concurrent runs: 27100
+   Succeeded   : 27100
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 94
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   33 -- GetParamTask for double
+   22 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+   18 -- GetParamTask for boolean
+   12 -- GetParamTask for java.lang.String
+   12 -- GetParamTask for java.awt.geom.Rectangle2D
+Tasks failed:
+   1 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+Null parameters:
+   4 -- org.jfree.ui.RectangleEdge
+   2 -- java.awt.geom.Rectangle2D
+   1 -- java.awt.Graphics2D
+   1 -- org.jfree.chart.plot.PlotRenderingInfo
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+253434 --- conc_exec
+21760 --- gen
+20468 --- candExec
+-----------(end)
+New suffix 
+final org.jfree.chart.plot.Plot var8 = var0.getPlot();
+final boolean var9 = var3.hasListener((java.util.EventListener) var8);
+final double var10 = var3.getFixedDimension();
+
+Nb generated tests: 272
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 273
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 274
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 275
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 276
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 277
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 278
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 279
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 280
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 281
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 282
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 283
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 284
+==== Starting Java scheduler-based execution ====
+New suffix 
+final double var5 = var2.getLabelAngle();
+var2.setLabelAngle((double) 0.1d);
+
+Nb generated tests: 285
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 286
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 287
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 288
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 289
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 290
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 291
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 292
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 293
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 294
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 295
+==== Starting Java scheduler-based execution ====
+New suffix 
+final java.util.List var8 = var3.refreshTicks((java.awt.Graphics2D) null, (org.jfree.chart.axis.AxisState) null, (java.awt.geom.Rectangle2D) null, (org.jfree.ui.RectangleEdge) null);
+var3.addChangeListener((org.jfree.chart.event.AxisChangeListener) null);
+
+Nb generated tests: 296
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 297
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 298
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 299
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 300
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 301
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 302
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 303
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 304
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 305
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 306
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 307
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 308
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 309
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.setAxisLineVisible((boolean) false);
+final boolean var3 = var0.isTickMarksVisible();
+
+Nb generated tests: 310
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 311
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 312
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 313
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 314
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 315
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 316
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 317
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 318
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 319
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 320
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 321
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final org.jfree.data.Range var5 = var0.getRange();
+final org.jfree.data.Range var6 = org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE;
+var0.setRangeWithMargins((org.jfree.data.Range) var6);
+
+Nb generated tests: 322
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 323
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 324
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 325
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+
+=== Statistics:  ===
+Executed sequences: 249
+   Failed         : 45
+Concurrent runs: 32442
+   Succeeded   : 32441
+   Failed      : 1
+Sequential interleavings: 20
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 104
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+   34 -- GetParamTask for double
+   23 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+   21 -- GetParamTask for boolean
+   13 -- GetParamTask for java.awt.geom.Rectangle2D
+   12 -- GetParamTask for java.lang.String
+Tasks failed:
+   1 -- GetParamTask for org.jfree.data.time.RegularTimePeriod
+Null parameters:
+   4 -- org.jfree.ui.RectangleEdge
+   2 -- java.awt.Graphics2D
+   2 -- java.awt.geom.Rectangle2D
+   1 -- org.jfree.chart.plot.PlotRenderingInfo
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+335759 --- all
+299209 --- conc_exec
+32391 --- gen
+30393 --- candExec
+-----------(end)
+Done with ClassTester at Thu Oct 27 23:58:57 CDT 2022

@@ -1,0 +1,145 @@
+Starting ClassTester at Thu Oct 27 23:53:43 CDT 2022
+No specific CUT methods selected
+TypeManager has indexed 5 classes
+Testing org.jfree.chart.axis.NumberAxis with seed 3
+New prefix:
+final org.jfree.chart.axis.NumberAxis var0 = new org.jfree.chart.axis.NumberAxis();
+var0.setFixedAutoRange((double) 1.0d);
+final org.jfree.chart.axis.NumberTickUnit var1 = org.jfree.chart.axis.NumberAxis.DEFAULT_TICK_UNIT;
+var0.setTickUnit((org.jfree.chart.axis.NumberTickUnit) var1);
+var0.zoomRange((double) -100.0d, (double) -2.0d);
+final org.jfree.chart.axis.NumberTickUnit var2 = var0.getTickUnit();
+final java.awt.Font var3 = org.jfree.chart.axis.AxisConstants.DEFAULT_TICK_LABEL_FONT;
+var0.setLabelFont((java.awt.Font) var3);
+
+New suffix 
+var0.setNumberFormatOverride((java.text.NumberFormat) null);
+final org.jfree.chart.axis.TickUnits var4 = org.jfree.chart.axis.NumberAxis.createIntegerTickUnits();
+
+Nb generated tests: 1
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New prefix:
+final org.jfree.chart.axis.NumberAxis var0 = new org.jfree.chart.axis.NumberAxis();
+final java.awt.Insets var1 = var0.getLabelInsets();
+final java.awt.Paint var2 = org.jfree.chart.axis.AxisConstants.DEFAULT_TICK_MARK_PAINT;
+var0.setLabelPaint((java.awt.Paint) var2);
+final double var3 = var0.getUpperBound();
+var0.setTickMarkPaint((java.awt.Paint) var2);
+final org.jfree.data.Range var4 = org.jfree.chart.axis.ValueAxis.DEFAULT_RANGE;
+var0.setRange((org.jfree.data.Range) var4);
+
+New suffix 
+final org.jfree.chart.plot.Plot var5 = var0.getPlot();
+final org.jfree.chart.axis.NumberAxis var6 = new org.jfree.chart.axis.NumberAxis((java.lang.String) "o");
+final java.text.NumberFormat var7 = var6.getNumberFormatOverride();
+var0.setNumberFormatOverride((java.text.NumberFormat) var7);
+
+Nb generated tests: 2
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New prefix:
+final org.jfree.chart.axis.NumberAxis var0 = new org.jfree.chart.axis.NumberAxis((java.lang.String) "%K3");
+var0.setLowerBound((double) -2.0d);
+final boolean var1 = var0.isAutoTickUnitSelection();
+final org.jfree.chart.axis.TickUnits var2 = org.jfree.chart.axis.NumberAxis.createIntegerTickUnits();
+final double var3 = var0.getAutoRangeMinimumSize();
+var0.setTickMarksVisible((boolean) false);
+
+New suffix 
+final org.jfree.chart.axis.NumberAxis var4 = new org.jfree.chart.axis.NumberAxis((java.lang.String) "D");
+final org.jfree.chart.plot.Plot var5 = var4.getPlot();
+var0.addChangeListener((org.jfree.chart.event.AxisChangeListener) var5);
+final boolean var6 = var0.isTickLabelsVisible();
+
+Nb generated tests: 3
+==== Starting Java scheduler-based execution ====
+New prefix:
+final org.jfree.chart.axis.NumberAxis var0 = new org.jfree.chart.axis.NumberAxis((java.lang.String) null);
+var0.resizeRange((double) 0.1d);
+final boolean var1 = var0.autoRangeStickyZero();
+final org.jfree.chart.axis.TickUnits var2 = org.jfree.chart.axis.NumberAxis.createStandardTickUnits();
+var0.setStandardTickUnits((org.jfree.chart.axis.TickUnits) var2);
+var0.setAxisLineVisible((boolean) var1);
+var0.setLowerMargin((double) 100.0d);
+
+New suffix 
+var0.setLabel((java.lang.String) "");
+var0.resizeRange((double) 1.0d, (double) 0.0d);
+
+Nb generated tests: 4
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Reached maxTries (10)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New prefix:
+final org.jfree.chart.axis.NumberAxis var0 = new org.jfree.chart.axis.NumberAxis((java.lang.String) null);
+var0.setFixedDimension((double) -100.0d);
+final java.text.NumberFormat var1 = var0.getNumberFormatOverride();
+var0.resizeRange((double) -0.1d);
+final double var2 = var0.getMaximumAxisValue();
+final org.jfree.chart.axis.TickUnits var3 = org.jfree.chart.axis.NumberAxis.createIntegerTickUnits();
+
+New suffix 
+final boolean var4 = var0.isVisible();
+final org.jfree.chart.axis.NumberAxis var5 = new org.jfree.chart.axis.NumberAxis();
+final org.jfree.chart.axis.MarkerAxisBand var6 = var5.getMarkerBand();
+var0.setMarkerBand((org.jfree.chart.axis.MarkerAxisBand) var6);
+
+Nb generated tests: 5
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.setAutoRange((boolean) true);
+final org.jfree.chart.axis.TickUnits var4 = org.jfree.chart.axis.NumberAxis.createIntegerTickUnits();
+
+Nb generated tests: 6
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 7
+==== Starting Java scheduler-based execution ====
+New suffix 
+var0.resizeRange((double) -1.0d, (double) -3.0d);
+var0.centerRange((double) 0.0d);
+
+Nb generated tests: 8
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+
+=== Statistics:  ===
+Executed sequences: 70
+   Failed         : 7
+Concurrent runs: 762
+   Succeeded   : 761
+   Failed      : 1
+Sequential interleavings: 6
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 14
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+   1 -- couldn't find param of type java.awt.Graphics2D
+Tasks started:
+   13 -- GetParamTask for double
+   4 -- GetParamTask for java.lang.String
+   3 -- GetParamTask for java.awt.Font
+   3 -- GetParamTask for boolean
+   2 -- GetParamTask for java.awt.Paint
+Tasks failed:
+   1 -- GetParamTask for java.awt.Graphics2D
+Null parameters:
+   3 -- java.awt.image.IndexColorModel
+   2 -- java.util.Locale
+   2 -- java.util.Hashtable
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+10096 --- all
+8642 --- conc_exec
+1342 --- gen
+1150 --- candExec
+-----------(end)
+Done with ClassTester at Thu Oct 27 23:53:54 CDT 2022

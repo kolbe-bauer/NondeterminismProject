@@ -1,0 +1,1150 @@
+Starting ClassTester at Thu Oct 27 23:52:30 CDT 2022
+No specific CUT methods selected
+TypeManager has indexed 308 classes
+Testing com.thoughtworks.xstream.XStream with seed 3
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New prefix:
+final com.thoughtworks.xstream.XStream var0 = new com.thoughtworks.xstream.XStream((com.thoughtworks.xstream.converters.reflection.ReflectionProvider) null, (com.thoughtworks.xstream.mapper.Mapper) null, (com.thoughtworks.xstream.io.HierarchicalStreamDriver) null);
+var0.addImmutableType((java.lang.Class) null);
+var0.registerLocalConverter((java.lang.Class) null, (java.lang.String) "", (com.thoughtworks.xstream.converters.SingleValueConverter) null);
+var0.autodetectAnnotations((boolean) false);
+var0.processAnnotations((java.lang.Class) null);
+var0.aliasAttribute((java.lang.String) "-", (java.lang.String) null);
+
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.addDefaultImplementation((java.lang.Class) null, (java.lang.Class) null);
+final com.thoughtworks.xstream.mapper.Mapper var1 = var0.getMapper();
+
+Nb generated tests: 1
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New prefix:
+final com.thoughtworks.xstream.XStream var0 = new com.thoughtworks.xstream.XStream();
+final com.thoughtworks.xstream.converters.reflection.ReflectionProvider var1 = var0.getReflectionProvider();
+final com.thoughtworks.xstream.converters.reflection.ReflectionProvider var2 = var0.getReflectionProvider();
+var0.autodetectAnnotations((boolean) false);
+final java.io.ObjectInputStream var3 = var0.createObjectInputStream((com.thoughtworks.xstream.io.HierarchicalStreamReader) null);
+var0.addImmutableType((java.lang.Class) null);
+
+New suffix 
+final com.thoughtworks.xstream.mapper.Mapper var4 = var0.getMapper();
+final java.io.ObjectOutputStream var5 = var0.createObjectOutputStream((java.io.Writer) null, (java.lang.String) ")");
+
+Nb generated tests: 2
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New prefix:
+final com.thoughtworks.xstream.XStream var0 = new com.thoughtworks.xstream.XStream((com.thoughtworks.xstream.converters.reflection.ReflectionProvider) null, (com.thoughtworks.xstream.mapper.Mapper) null, (com.thoughtworks.xstream.io.HierarchicalStreamDriver) null);
+var0.processAnnotations((java.lang.Class) null);
+final com.thoughtworks.xstream.converters.ConverterLookup var1 = var0.getConverterLookup();
+var0.setClassLoader((java.lang.ClassLoader) null);
+final com.thoughtworks.xstream.core.ReferenceByIdMarshallingStrategy var2 = new com.thoughtworks.xstream.core.ReferenceByIdMarshallingStrategy();
+var0.setMarshallingStrategy((com.thoughtworks.xstream.MarshallingStrategy) var2);
+final com.thoughtworks.xstream.converters.enums.EnumConverter var3 = new com.thoughtworks.xstream.converters.enums.EnumConverter();
+var0.registerConverter((com.thoughtworks.xstream.converters.Converter) var3, (int) 3);
+
+New suffix 
+final java.io.ObjectInputStream var4 = var0.createObjectInputStream((com.thoughtworks.xstream.io.HierarchicalStreamReader) null);
+var0.processAnnotations((java.lang.Class[]) null);
+
+Nb generated tests: 3
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New prefix:
+final com.thoughtworks.xstream.io.xml.JDomDriver var0 = new com.thoughtworks.xstream.io.xml.JDomDriver();
+final com.thoughtworks.xstream.XStream var1 = new com.thoughtworks.xstream.XStream((com.thoughtworks.xstream.converters.reflection.ReflectionProvider) null, (com.thoughtworks.xstream.io.HierarchicalStreamDriver) var0);
+var1.addImmutableType((java.lang.Class) null);
+var1.omitField((java.lang.Class) null, (java.lang.String) "");
+var1.setClassLoader((java.lang.ClassLoader) null);
+final java.io.ObjectOutputStream var2 = var1.createObjectOutputStream((java.io.Writer) null, (java.lang.String) "u");
+final com.thoughtworks.xstream.core.util.CompositeClassLoader var3 = new com.thoughtworks.xstream.core.util.CompositeClassLoader();
+var1.setClassLoader((java.lang.ClassLoader) var3);
+
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var1.addDefaultImplementation((java.lang.Class) null, (java.lang.Class) null);
+var1.useAttributeFor((java.lang.Class) null);
+
+Nb generated tests: 4
+==== Starting Java scheduler-based execution ====
+Sequences crashes: contege.NullAsReceiverException$
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Reached maxTries (10)
+New prefix:
+final com.thoughtworks.xstream.XStream var0 = new com.thoughtworks.xstream.XStream((com.thoughtworks.xstream.converters.reflection.ReflectionProvider) null);
+var0.registerConverter((com.thoughtworks.xstream.converters.SingleValueConverter) null);
+final com.thoughtworks.xstream.converters.ConverterLookup var1 = var0.getConverterLookup();
+final com.thoughtworks.xstream.converters.reflection.ReflectionProvider var2 = var0.getReflectionProvider();
+final com.thoughtworks.xstream.core.util.ClassLoaderReference var3 = new com.thoughtworks.xstream.core.util.ClassLoaderReference((java.lang.ClassLoader) null);
+final java.lang.ClassLoader var4 = var3.getParent();
+final java.lang.ClassLoader var5 = var4.getParent();
+final com.thoughtworks.xstream.mapper.DefaultMapper var6 = new com.thoughtworks.xstream.mapper.DefaultMapper((java.lang.ClassLoader) var5);
+final com.thoughtworks.xstream.mapper.XmlFriendlyMapper var7 = new com.thoughtworks.xstream.mapper.XmlFriendlyMapper((com.thoughtworks.xstream.mapper.Mapper) var6);
+final com.thoughtworks.xstream.converters.Converter var8 = var7.getLocalConverter((java.lang.Class) null, (java.lang.String) "");
+var0.registerConverter((com.thoughtworks.xstream.converters.Converter) var8, (int) 100);
+
+New suffix 
+var0.registerConverter((com.thoughtworks.xstream.converters.Converter) null);
+var0.registerConverter((com.thoughtworks.xstream.converters.Converter) var8, (int) 100);
+
+Nb generated tests: 5
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.omitField((java.lang.Class) null, (java.lang.String) "0");
+var0.setMarshallingStrategy((com.thoughtworks.xstream.MarshallingStrategy) null);
+
+Nb generated tests: 6
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 7
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Reached maxTries (10)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: contege.NullAsReceiverException$
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Reached maxTries (10)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final java.lang.ClassLoader var1 = java.lang.ClassLoader.getSystemClassLoader();
+var0.setClassLoader((java.lang.ClassLoader) var1);
+final java.lang.ClassLoader var2 = var0.getClassLoader();
+
+Nb generated tests: 8
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 9
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final java.io.ObjectInputStream var4 = var0.createObjectInputStream((com.thoughtworks.xstream.io.HierarchicalStreamReader) null);
+var0.aliasSystemAttribute((java.lang.String) "?", (java.lang.String) null);
+
+Nb generated tests: 10
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 11
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.addImmutableType((java.lang.Class) null);
+var0.useAttributeFor((java.lang.String) null, (java.lang.Class) null);
+
+Nb generated tests: 12
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 13
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 14
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var1.useAttributeFor((java.lang.Class) null);
+var1.setClassLoader((java.lang.ClassLoader) var3);
+
+Nb generated tests: 15
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 16
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.registerConverter((com.thoughtworks.xstream.converters.Converter) var3, (int) 100);
+var0.setClassLoader((java.lang.ClassLoader) null);
+
+Nb generated tests: 17
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 18
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.registerConverter((com.thoughtworks.xstream.converters.Converter) null);
+var0.aliasAttribute((java.lang.String) "E", (java.lang.String) null);
+
+Nb generated tests: 19
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 20
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 21
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 22
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.processAnnotations((java.lang.Class[]) null);
+final java.lang.ClassLoader var4 = var0.getClassLoader();
+
+Nb generated tests: 23
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 24
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 25
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final com.thoughtworks.xstream.mapper.Mapper var4 = var0.getMapper();
+final java.io.ObjectInputStream var5 = var0.createObjectInputStream((com.thoughtworks.xstream.io.HierarchicalStreamReader) null);
+
+Nb generated tests: 26
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 27
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 28
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.registerConverter((com.thoughtworks.xstream.converters.SingleValueConverter) null, (int) -100);
+var0.useAttributeFor((java.lang.Class) null);
+
+Nb generated tests: 29
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 30
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 31
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 32
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final com.thoughtworks.xstream.io.json.JsonHierarchicalStreamWriter var4 = new com.thoughtworks.xstream.io.json.JsonHierarchicalStreamWriter((java.io.Writer) null);
+final com.thoughtworks.xstream.io.HierarchicalStreamWriter var5 = var4.underlyingWriter();
+final java.io.ObjectOutputStream var6 = var0.createObjectOutputStream((com.thoughtworks.xstream.io.HierarchicalStreamWriter) var5);
+var0.aliasAttribute((java.lang.String) null, (java.lang.String) "");
+
+Nb generated tests: 33
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 34
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 35
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 36
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var1.aliasSystemAttribute((java.lang.String) null, (java.lang.String) "");
+final com.thoughtworks.xstream.converters.DataHolder var4 = var1.newDataHolder();
+
+Nb generated tests: 37
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 38
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 39
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.aliasSystemAttribute((java.lang.String) null, (java.lang.String) null);
+var0.useAttributeFor((java.lang.Class) null);
+
+Nb generated tests: 40
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 41
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 42
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 43
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 44
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 299
+   Failed         : 201
+Concurrent runs: 4400
+   Succeeded   : 4400
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 1 / 38
+Reasons for failed call CUT tasks:
+   1 -- couldn't find param of type java.lang.Class
+Reasons for failed state changer call tasks:
+Tasks started:
+   92 -- GetParamTask for java.lang.String
+   73 -- GetParamTask for java.lang.Class
+   26 -- GetParamTask for java.lang.Object
+   14 -- GetParamTask for java.io.InputStream
+   12 -- GetParamTask for com.thoughtworks.xstream.io.HierarchicalStreamReader
+Tasks failed:
+   1 -- GetParamTask for java.lang.Class
+Null parameters:
+   4 -- java.io.Writer
+   1 -- java.util.TimeZone
+   1 -- org.codehaus.jettison.mapped.Configuration
+   1 -- [Ljava.lang.Class;
+   1 -- java.io.File
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+19953 --- conc_exec
+3471 --- gen
+3225 --- candExec
+-----------(end)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.registerConverter((com.thoughtworks.xstream.converters.Converter) null);
+final com.thoughtworks.xstream.io.xml.JDomReader var4 = new com.thoughtworks.xstream.io.xml.JDomReader((org.jdom.Element) null, (com.thoughtworks.xstream.io.naming.NameCoder) null);
+final java.io.ObjectInputStream var5 = var0.createObjectInputStream((com.thoughtworks.xstream.io.HierarchicalStreamReader) var4);
+
+Nb generated tests: 45
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 46
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 47
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 48
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 49
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 306
+   Failed         : 205
+Concurrent runs: 4900
+   Succeeded   : 4900
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 1 / 40
+Reasons for failed call CUT tasks:
+   1 -- couldn't find param of type java.lang.Class
+Reasons for failed state changer call tasks:
+Tasks started:
+   94 -- GetParamTask for java.lang.String
+   75 -- GetParamTask for java.lang.Class
+   26 -- GetParamTask for java.lang.Object
+   14 -- GetParamTask for java.io.InputStream
+   13 -- GetParamTask for com.thoughtworks.xstream.io.HierarchicalStreamReader
+Tasks failed:
+   1 -- GetParamTask for java.lang.Class
+Null parameters:
+   4 -- java.io.Writer
+   1 -- java.util.TimeZone
+   1 -- org.codehaus.jettison.mapped.Configuration
+   1 -- [Ljava.lang.Class;
+   1 -- java.io.File
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+22009 --- conc_exec
+3563 --- gen
+3315 --- candExec
+-----------(end)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var1.addDefaultImplementation((java.lang.Class) null, (java.lang.Class) null);
+var1.autodetectAnnotations((boolean) true);
+
+Nb generated tests: 50
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 51
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 52
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 53
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final java.lang.ClassLoader var4 = var1.getClassLoader();
+var1.setClassLoader((java.lang.ClassLoader) var4);
+
+Nb generated tests: 54
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 55
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 56
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 57
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 58
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 321
+   Failed         : 216
+Concurrent runs: 5800
+   Succeeded   : 5800
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 1 / 44
+Reasons for failed call CUT tasks:
+   1 -- couldn't find param of type java.lang.Class
+Reasons for failed state changer call tasks:
+Tasks started:
+   96 -- GetParamTask for java.lang.String
+   80 -- GetParamTask for java.lang.Class
+   27 -- GetParamTask for java.lang.Object
+   14 -- GetParamTask for java.io.InputStream
+   13 -- GetParamTask for com.thoughtworks.xstream.io.HierarchicalStreamReader
+Tasks failed:
+   1 -- GetParamTask for java.lang.Class
+Null parameters:
+   4 -- java.io.Writer
+   1 -- java.util.TimeZone
+   1 -- org.codehaus.jettison.mapped.Configuration
+   1 -- [Ljava.lang.Class;
+   1 -- java.io.File
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+26686 --- conc_exec
+3803 --- gen
+3552 --- candExec
+-----------(end)
+New suffix 
+var0.aliasAttribute((java.lang.String) "", (java.lang.String) "C");
+final com.thoughtworks.xstream.core.TreeMarshallingStrategy var4 = new com.thoughtworks.xstream.core.TreeMarshallingStrategy();
+var0.setMarshallingStrategy((com.thoughtworks.xstream.MarshallingStrategy) var4);
+
+Nb generated tests: 59
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 60
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 61
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 62
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 63
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 64
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.processAnnotations((java.lang.Class) null);
+var0.useAttributeFor((java.lang.Class) null);
+
+Nb generated tests: 65
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 66
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 67
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var1.setClassLoader((java.lang.ClassLoader) var3);
+final com.thoughtworks.xstream.converters.extended.ISO8601GregorianCalendarConverter var4 = new com.thoughtworks.xstream.converters.extended.ISO8601GregorianCalendarConverter();
+var1.registerConverter((com.thoughtworks.xstream.converters.SingleValueConverter) var4, (int) -100);
+
+Nb generated tests: 68
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 69
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 70
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 71
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 72
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 73
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.setMarshallingStrategy((com.thoughtworks.xstream.MarshallingStrategy) null);
+final java.io.ObjectInputStream var9 = var0.createObjectInputStream((com.thoughtworks.xstream.io.HierarchicalStreamReader) null);
+
+Nb generated tests: 74
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 75
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 76
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 77
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var1.setClassLoader((java.lang.ClassLoader) var3);
+final com.thoughtworks.xstream.core.ReferenceByXPathMarshallingStrategy var4 = new com.thoughtworks.xstream.core.ReferenceByXPathMarshallingStrategy((int) -2);
+var1.setMarshallingStrategy((com.thoughtworks.xstream.MarshallingStrategy) var4);
+
+Nb generated tests: 78
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 79
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 80
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 81
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 82
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 83
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 84
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final com.thoughtworks.xstream.converters.extended.LocaleConverter var4 = new com.thoughtworks.xstream.converters.extended.LocaleConverter();
+var0.registerConverter((com.thoughtworks.xstream.converters.SingleValueConverter) var4);
+var0.autodetectAnnotations((boolean) true);
+
+Nb generated tests: 85
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 86
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 87
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 88
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 89
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 90
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final com.thoughtworks.xstream.converters.ConverterLookup var1 = var0.getConverterLookup();
+var0.useAttributeFor((java.lang.Class) null);
+
+Nb generated tests: 91
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 92
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 93
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 94
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 95
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 363
+   Failed         : 239
+Concurrent runs: 9500
+   Succeeded   : 9500
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 1 / 58
+Reasons for failed call CUT tasks:
+   1 -- couldn't find param of type java.lang.Class
+Reasons for failed state changer call tasks:
+Tasks started:
+   111 -- GetParamTask for java.lang.String
+   92 -- GetParamTask for java.lang.Class
+   33 -- GetParamTask for java.lang.Object
+   15 -- GetParamTask for java.io.InputStream
+   15 -- GetParamTask for com.thoughtworks.xstream.io.HierarchicalStreamReader
+Tasks failed:
+   1 -- GetParamTask for java.lang.Class
+Null parameters:
+   4 -- java.io.Writer
+   2 -- java.io.File
+   1 -- java.util.TimeZone
+   1 -- org.codehaus.jettison.mapped.Configuration
+   1 -- [Ljava.lang.Class;
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+51327 --- conc_exec
+5809 --- gen
+5541 --- candExec
+-----------(end)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final com.thoughtworks.xstream.converters.reflection.ReflectionProvider var4 = var0.getReflectionProvider();
+final com.thoughtworks.xstream.converters.ConverterLookup var5 = var0.getConverterLookup();
+
+Nb generated tests: 96
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 97
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 98
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 99
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 100
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 101
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 102
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final com.thoughtworks.xstream.converters.reflection.ReflectionProvider var4 = var1.getReflectionProvider();
+var1.registerConverter((com.thoughtworks.xstream.converters.Converter) null, (int) -3);
+
+Nb generated tests: 103
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 104
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 105
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 106
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 107
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 108
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 109
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 110
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final com.thoughtworks.xstream.converters.reflection.ReflectionProvider var4 = var0.getReflectionProvider();
+var0.registerConverter((com.thoughtworks.xstream.converters.Converter) null);
+
+Nb generated tests: 111
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 112
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 113
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 114
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 115
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 116
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 117
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 118
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.registerConverter((com.thoughtworks.xstream.converters.SingleValueConverter) null);
+var0.aliasAttribute((java.lang.String) "", (java.lang.String) "");
+
+Nb generated tests: 119
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 120
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 121
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 122
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 123
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 124
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 125
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 126
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 127
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var1.registerConverter((com.thoughtworks.xstream.converters.SingleValueConverter) null, (int) -100);
+var1.processAnnotations((java.lang.Class) null);
+
+Nb generated tests: 128
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 129
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 130
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 131
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 132
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 133
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 134
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 135
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 136
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.aliasSystemAttribute((java.lang.String) "", (java.lang.String) null);
+var0.autodetectAnnotations((boolean) false);
+
+Nb generated tests: 137
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 138
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 139
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 140
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 141
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 400
+   Failed         : 263
+Concurrent runs: 14100
+   Succeeded   : 14100
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 1 / 70
+Reasons for failed call CUT tasks:
+   1 -- couldn't find param of type java.lang.Class
+Reasons for failed state changer call tasks:
+Tasks started:
+   125 -- GetParamTask for java.lang.String
+   101 -- GetParamTask for java.lang.Class
+   36 -- GetParamTask for java.lang.Object
+   16 -- GetParamTask for java.io.InputStream
+   16 -- GetParamTask for com.thoughtworks.xstream.io.HierarchicalStreamReader
+Tasks failed:
+   1 -- GetParamTask for java.lang.Class
+Null parameters:
+   4 -- java.io.Writer
+   3 -- java.io.File
+   1 -- java.util.TimeZone
+   1 -- org.codehaus.jettison.mapped.Configuration
+   1 -- [Ljava.lang.Class;
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+86670 --- conc_exec
+7596 --- gen
+7314 --- candExec
+-----------(end)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: contege.NullAsReceiverException$
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var1.aliasAttribute((java.lang.String) null, (java.lang.String) null);
+var1.autodetectAnnotations((boolean) false);
+
+Nb generated tests: 142
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 143
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 144
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 145
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 146
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 147
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 148
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 149
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 150
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 151
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 408
+   Failed         : 269
+Concurrent runs: 15100
+   Succeeded   : 15100
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 1 / 72
+Reasons for failed call CUT tasks:
+   1 -- couldn't find param of type java.lang.Class
+Reasons for failed state changer call tasks:
+Tasks started:
+   128 -- GetParamTask for java.lang.String
+   102 -- GetParamTask for java.lang.Class
+   36 -- GetParamTask for java.lang.Object
+   16 -- GetParamTask for java.io.InputStream
+   16 -- GetParamTask for com.thoughtworks.xstream.io.HierarchicalStreamReader
+Tasks failed:
+   1 -- GetParamTask for java.lang.Class
+Null parameters:
+   4 -- java.io.Writer
+   3 -- java.io.File
+   1 -- java.util.TimeZone
+   1 -- org.codehaus.jettison.mapped.Configuration
+   1 -- [Ljava.lang.Class;
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+95730 --- conc_exec
+8435 --- gen
+8148 --- candExec
+-----------(end)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.registerConverter((com.thoughtworks.xstream.converters.Converter) null, (int) 100);
+var0.registerConverter((com.thoughtworks.xstream.converters.SingleValueConverter) null, (int) 0);
+
+Nb generated tests: 152
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 153
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 154
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 155
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 156
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 157
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.registerConverter((com.thoughtworks.xstream.converters.Converter) var8);
+var0.aliasAttribute((java.lang.String) null, (java.lang.String) null);
+
+Nb generated tests: 158
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 159
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 160
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 161
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 162
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 163
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: contege.NullAsReceiverException$
+Reached maxTries (10)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+final com.thoughtworks.xstream.converters.reflection.ReflectionProvider var1 = var0.getReflectionProvider();
+var0.processAnnotations((java.lang.Class) null);
+
+Nb generated tests: 164
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 165
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 166
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 167
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 168
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 169
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 170
+==== Starting Java scheduler-based execution ====
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+New suffix 
+var0.useAttributeFor((java.lang.String) "", (java.lang.Class) null);
+var0.aliasAttribute((java.lang.String) "", (java.lang.String) "8");
+
+Nb generated tests: 171
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 172
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 173
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 174
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 175
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 176
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 177
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 178
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 179
+==== Starting Java scheduler-based execution ====
+Nb generated tests: 180
+==== Starting Java scheduler-based execution ====
+
+=== Statistics:  ===
+Executed sequences: 441
+   Failed         : 290
+Concurrent runs: 18000
+   Succeeded   : 18000
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 1 / 80
+Reasons for failed call CUT tasks:
+   2 -- couldn't find param of type java.lang.Class
+Reasons for failed state changer call tasks:
+Tasks started:
+   137 -- GetParamTask for java.lang.String
+   109 -- GetParamTask for java.lang.Class
+   39 -- GetParamTask for java.lang.Object
+   17 -- GetParamTask for com.thoughtworks.xstream.io.HierarchicalStreamReader
+   16 -- GetParamTask for java.io.InputStream
+Tasks failed:
+   2 -- GetParamTask for java.lang.Class
+Null parameters:
+   5 -- java.io.Writer
+   3 -- java.io.File
+   1 -- java.util.TimeZone
+   1 -- org.codehaus.jettison.mapped.MappedNamespaceConvention
+   1 -- org.codehaus.jettison.mapped.Configuration
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+138204 --- conc_exec
+16513 --- gen
+15979 --- candExec
+-----------(end)
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException
+Sequences crashes: java.lang.reflect.InvocationTargetException

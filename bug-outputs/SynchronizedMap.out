@@ -1,0 +1,40 @@
+Starting ClassTester at Thu Oct 27 23:52:48 CDT 2022
+No specific CUT methods selected
+TypeManager has indexed 3 classes
+Testing java16.util.Collections with seed 3
+No constructor or method to create instance of CUT! java16.util.Collections
+No constructor or method to create instance of CUT! java16.util.Collections
+No constructor or method to create instance of CUT! java16.util.Collections
+No constructor or method to create instance of CUT! java16.util.Collections
+No constructor or method to create instance of CUT! java16.util.Collections
+No constructor or method to create instance of CUT! java16.util.Collections
+No constructor or method to create instance of CUT! java16.util.Collections
+No constructor or method to create instance of CUT! java16.util.Collections
+No constructor or method to create instance of CUT! java16.util.Collections
+No constructor or method to create instance of CUT! java16.util.Collections
+Reached maxTries (10)
+
+=== Statistics:  ===
+Executed sequences: 0
+   Failed         : 0
+Concurrent runs: 0
+   Succeeded   : 0
+   Failed      : 0
+Sequential interleavings: 0
+------------
+Too long sequence: 0
+Failed call CUT tasks: 0 / 0
+Reasons for failed call CUT tasks:
+Reasons for failed state changer call tasks:
+Tasks started:
+Tasks failed:
+Null parameters:
+No parameter found:
+
+-------------------------
+Successful / inconclusive JPF runs: 0 / 0
+====================
+--- Timer: 
+14 --- all
+-----------(end)
+Done with ClassTester at Thu Oct 27 23:52:48 CDT 2022
