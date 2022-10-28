@@ -1,6 +1,6 @@
 #! /bin/sh
 
-NROFTESTS=4
+NROFTESTS=15
 DIR=`dirname $0`
 ERRFILE=$DIR/log/test.err
 DIFFFILE=$DIR/log/test.diff

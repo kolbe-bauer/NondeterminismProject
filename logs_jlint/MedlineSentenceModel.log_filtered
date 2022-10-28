@@ -1,0 +1,75 @@
+./test8/com/aliasi/chunk/AbstractCharLmRescoringChunker.java:237: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/util/AbstractCommand.java:1: Method com/aliasi/util/AbstractCommand.run() implementing 'Runnable' interface is not synchronized.
+./test8/com/aliasi/chunk/AbstractTagChunkCodec.java:181: Value of referenced variable 'sb' may be NULL.
+./test8/com/aliasi/util/Arrays.java:251: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/spell/AutoCompleter.java:281: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/spell/AutoCompleter.java:282: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/classify/BigVectorClassifier.java:306: Index [-1,-3] is out of array bounds.
+./test8/com/aliasi/classify/BigVectorClassifier.java:313: Comparison always produces the same result.
+./test8/com/aliasi/chunk/BioTagChunkCodec.java:669: Value of referenced variable 'tokenEndList' may be NULL.
+./test8/com/aliasi/io/BitOutput.java:302: Comparison always produces the same result.
+./test8/com/aliasi/crf/ChainCrf.java:1236: Value of referenced variable 'featureVectorsCache' may be NULL.
+./test8/com/aliasi/crf/ChainCrf.java:1258: Value of referenced variable 'featureVectorsCache' may be NULL.
+./test8/com/aliasi/crf/ChainCrf.java:1323: Value of referenced variable 'featureVectorsCache' may be NULL.
+./test8/com/aliasi/chunk/CharLmHmmChunker.java:685: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/chunk/ChunkTagHandlerAdapter2.java:232: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/chunk/ChunkTagHandlerAdapter2.java:238: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/lm/CompiledTokenizedLM.java:107: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/lm/CompiledTokenizedLM.java:188: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/suffixarray/DocumentTokenSuffixArray.java:269: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/spell/EditDistance.java:230: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/spell/EditDistance.java:297: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/dict/ExactDictionaryChunker.java:439: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/crf/ForwardBackwardTagLattice.java:257: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/hmm/HmmDecoder.java:842: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/hmm/HmmDecoder.java:800: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/hmm/HmmDecoder.java:815: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/hmm/HmmDecoder.java:819: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/cluster/KMeansClusterer.java:456: Method com/aliasi/cluster/KMeansClusterer.cluster(java.util.Set, java.util.Random, com.aliasi.io.Reporter) can be invoked with NULL as 3 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/KMeansClusterer.java:457: Method com/aliasi/cluster/KMeansClusterer.cluster(java.util.Set, java.util.Random, com.aliasi.io.Reporter) can be invoked with NULL as 3 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/KMeansClusterer.java:460: Method com/aliasi/cluster/KMeansClusterer.cluster(java.util.Set, java.util.Random, com.aliasi.io.Reporter) can be invoked with NULL as 3 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/KMeansClusterer.java:468: Method com/aliasi/cluster/KMeansClusterer.cluster(java.util.Set, java.util.Random, com.aliasi.io.Reporter) can be invoked with NULL as 3 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/KMeansClusterer.java:475: Method com/aliasi/cluster/KMeansClusterer.cluster(java.util.Set, java.util.Random, com.aliasi.io.Reporter) can be invoked with NULL as 3 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/KMeansClusterer.java:482: Method com/aliasi/cluster/KMeansClusterer.cluster(java.util.Set, java.util.Random, com.aliasi.io.Reporter) can be invoked with NULL as 3 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/KMeansClusterer.java:571: Method com/aliasi/cluster/KMeansClusterer.recluster(java.util.Set, java.util.Set, int, com.aliasi.io.Reporter) can be invoked with NULL as 4 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/KMeansClusterer.java:574: Method com/aliasi/cluster/KMeansClusterer.recluster(java.util.Set, java.util.Set, int, com.aliasi.io.Reporter) can be invoked with NULL as 4 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/KMeansClusterer.java:597: Method com/aliasi/cluster/KMeansClusterer.recluster(java.util.Set, java.util.Set, int, com.aliasi.io.Reporter) can be invoked with NULL as 4 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/KMeansClusterer.java:599: Method com/aliasi/cluster/KMeansClusterer.recluster(java.util.Set, java.util.Set, int, com.aliasi.io.Reporter) can be invoked with NULL as 4 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/KMeansClusterer.java:601: Method com/aliasi/cluster/KMeansClusterer.recluster(java.util.Set, java.util.Set, int, com.aliasi.io.Reporter) can be invoked with NULL as 4 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/KMeansClusterer.java:613: Method com/aliasi/cluster/KMeansClusterer.recluster(java.util.Set, java.util.Set, int, com.aliasi.io.Reporter) can be invoked with NULL as 4 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/KMeansClusterer.java:621: Method com/aliasi/cluster/KMeansClusterer.recluster(java.util.Set, java.util.Set, int, com.aliasi.io.Reporter) can be invoked with NULL as 4 parameter and this parameter is used without check for NULL.
+./test8/com/aliasi/cluster/LatentDirichletAllocation.java:1154: Index [-32768,32767] may be out of array bounds.
+./test8/com/aliasi/stats/LogisticRegression.java:523: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/stats/LogisticRegression.java:793: Value of referenced variable 'prior' may be NULL.
+./test8/com/aliasi/stats/LogisticRegression.java:794: Value of referenced variable 'prior' may be NULL.
+./test8/com/aliasi/classify/LogisticRegressionClassifier.java:541: Array length [-1,2147483646] may be less than zero.
+./test8/com/aliasi/lm/NGramBoundaryLM.java:421: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/lm/NGramProcessLM.java:849: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/classify/RankedClassifierEvaluator.java:113: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/classify/RankedClassifierEvaluator.java:113: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/classify/ScoredPrecisionRecallEvaluation.java:504: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/coref/matchers/SequenceSubstringMatch.java:144: Index [-2147483648,2147483647] may be out of array bounds.
+./test8/com/aliasi/coref/matchers/SequenceSubstringMatch.java:144: Index [-2147483648,2147483647] may be out of array bounds.
+./test8/com/aliasi/util/ShortPriorityQueue.java:361: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/util/ShortPriorityQueue.java:364: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/util/SmallSet.java:438: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/matrix/SparseFloatVector.java:181: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/matrix/SparseFloatVector.java:186: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/matrix/SparseFloatVector.java:195: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/stats/Statistics.java:934: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/tag/StringTagging.java:105: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/tag/StringTagging.java:106: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/hmm/TagWordLattice.java:522: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/hmm/TagWordLattice.java:613: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/hmm/TagWordLattice.java:616: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/classify/TfIdfClassifierTrainer.java:483: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/lm/TokenizedLM.java:450: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/lm/TokenizedLM.java:512: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/lm/TokenizedLM.java:621: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/lm/TokenizedLM.java:1186: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/chunk/TrainableEstimator.java:186: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/spell/TrainSpellChecker.java:272: Maybe type cast is not correctly applied.
+./test8/com/aliasi/chunk/TrainTokenShapeChunker.java:424: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/spell/WeightedEditDistance.java:249: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/spell/WeightedEditDistance.java:293: Index [-1,2147483646] may be out of array bounds.
+./test8/com/aliasi/features/ZScoreFeatureExtractor.java:158: NULL reference can be used.

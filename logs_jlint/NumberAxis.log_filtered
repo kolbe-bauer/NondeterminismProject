@@ -1,0 +1,37 @@
+./test1/org/jfree/chart/axis/ColorBar.java:1: Value of referenced variable '???' may be NULL.
+./test1/org/jfree/chart/axis/ColorBar.java:2: Value of referenced variable '???' may be NULL.
+./test1/org/jfree/chart/axis/ColorBar.java:3: Value of referenced variable '???' may be NULL.
+./test1/org/jfree/chart/axis/ColorBar.java:4: Value of referenced variable '???' may be NULL.
+./test1/org/jfree/chart/axis/ColorBar.java:5: Value of referenced variable '???' may be NULL.
+./test1/org/jfree/chart/axis/ColorBar.java:6: Value of referenced variable '???' may be NULL.
+./test1/org/jfree/chart/axis/ColorBar.java:7: Value of referenced variable '???' may be NULL.
+./test1/org/jfree/chart/axis/ColorBar.java:8: Value of referenced variable '???' may be NULL.
+./test1/org/jfree/chart/axis/ColorBar.java:9: Value of referenced variable '???' may be NULL.
+./test1/org/jfree/chart/axis/ColorBar.java:10: Value of referenced variable '???' may be NULL.
+./test1/org/jfree/chart/axis/ColorBar.java:11: Value of referenced variable '???' may be NULL.
+./test1/org/jfree/chart/axis/ColorBar.java:12: Value of referenced variable '???' may be NULL.
+./test1/org/jfree/chart/plot/CompassPlot.java:1: Index [-1,2147483646] may be out of array bounds.
+./test1/org/jfree/chart/plot/ContourPlot.java:1: Index [-1,2147483646] may be out of array bounds.
+./test1/org/jfree/chart/plot/ContourPlot.java:2: Zero operand for + operation.
+./test1/org/jfree/chart/plot/DefaultDrawingSupplier.java:1: Comparison always produces the same result.
+./test1/org/jfree/data/HistogramDataset.java:1: Index [-1,2147483646] may be out of array bounds.
+./test1/org/jfree/data/time/Month.java:1: Comparison always produces the same result.
+./test1/org/jfree/chart/plot/PiePlot.java:1: Comparison always produces the same result.
+./test1/org/jfree/chart/plot/PiePlot.java:2: Comparison always produces the same result.
+./test1/org/jfree/chart/plot/PiePlot.java:3: Comparison always produces the same result.
+./test1/org/jfree/data/time/Quarter.java:1: Comparison always produces the same result.
+./test1/org/jfree/chart/renderer/StackedBarRenderer.java:1: Zero operand for - operation.
+./test1/org/jfree/chart/renderer/StackedBarRenderer.java:2: Zero operand for - operation.
+./test1/org/jfree/chart/renderer/StackedBarRenderer.java:3: Zero operand for + operation.
+./test1/org/jfree/chart/renderer/StackedBarRenderer.java:4: Zero operand for - operation.
+./test1/org/jfree/chart/renderer/StackedBarRenderer.java:5: Zero operand for - operation.
+./test1/org/jfree/chart/renderer/StackedBarRenderer.java:6: Zero operand for + operation.
+./test1/org/jfree/chart/plot/ThermometerPlot.java:1: Comparison always produces the same result.
+./test1/org/jfree/data/time/Week.java:1: Comparison always produces the same result.
+./test1/org/jfree/chart/renderer/XYDifferenceRenderer.java:1: Zero operand for + operation.
+./test1/org/jfree/chart/renderer/XYDifferenceRenderer.java:2: Zero operand for + operation.
+./test1/org/jfree/chart/renderer/XYDifferenceRenderer.java:3: Zero operand for + operation.
+./test1/org/jfree/chart/renderer/XYDifferenceRenderer.java:4: Zero operand for + operation.
+./test1/org/jfree/chart/renderer/XYDifferenceRenderer.java:5: Zero operand for + operation.
+./test1/org/jfree/data/XYSeries.java:1: Comparison always produces the same result.
+./test1/org/jfree/chart/renderer/YIntervalRenderer.java:1: Value of referenced variable '???' may be NULL.

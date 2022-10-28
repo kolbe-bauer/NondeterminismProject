@@ -1,0 +1,2 @@
+jlint: method_desc.cc:1258: void method_desc::parse_code(constant**, const field_desc*): Assertion `result.min <= result.max' failed.
+Aborted (core dumped)

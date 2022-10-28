@@ -1,0 +1,10 @@
+./test6/org/apache/commons/dbcp/AbandonedObjectPool.java:135: Maybe type cast is not correctly applied.
+./test6/org/apache/commons/dbcp/AbandonedTrace.java:211: Value of lock format is changed outside synchronization or constructor.
+./test6/org/apache/commons/dbcp/BasicDataSource.java:1545: Method org/apache/commons/dbcp/BasicDataSource.validateConnectionFactory(org.apache.commons.dbcp.PoolableConnectionFactory) can be called from different threads and is not synchronized.
+./test6/org/apache/commons/dbcp/datasources/InstanceKeyDataSource.java:716: Value of referenced variable 'password' may be NULL.
+./test6/org/apache/commons/dbcp/datasources/InstanceKeyDataSource.java:754: Value of referenced variable 'password' may be NULL.
+./test6/org/apache/commons/jocl/JOCLContentHandler.java:341: Value of referenced variable 'reader' may be NULL.
+./test6/org/apache/commons/jocl/JOCLContentHandler.java:342: Value of referenced variable 'reader' may be NULL.
+./test6/org/apache/commons/dbcp/cpdsadapter/PooledConnectionImpl.java:211: Method finalize() doesn't call super.finalize().
+./test6/org/apache/commons/dbcp/PoolingConnection.java:93: Loop 1: invocation of synchronized method org/apache/commons/dbcp/PoolingConnection.close() can cause deadlock.
+./test6/org/apache/commons/dbcp/datasources/PoolKey.java:49: Zero operand for + operation.

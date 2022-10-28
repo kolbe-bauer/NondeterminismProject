@@ -1,0 +1,15 @@
+1: ./NumberAxis/jar
+2: ./StringBuffer/jar
+3: ./BufferedInputStream/jar
+4: ./TimeSeries/jar
+5: ./XStream/jar
+6: ./PerUserPoolDataSource/jar
+7: ./XYSeries/jar
+8: ./MedlineSentenceModel/jar
+9: ./Day/jar
+10: ./PeriodAxis/jar
+11: ./XYPlot/jar
+12: ./ConcurrentHashMap/jar
+13: ./SynchronizedMap/jar
+14: ./SharedPoolDataSource/jar
+15: ./Logger/jar

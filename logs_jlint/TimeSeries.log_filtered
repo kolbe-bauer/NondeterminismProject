@@ -1,0 +1,22 @@
+./test4/org/jfree/chart/renderer/AbstractRenderer.java:1: Comparison always produces the same result.
+./test4/org/jfree/chart/axis/Axis.java:1: Switch case constant 4 can't be produced by switch expression.
+./test4/org/jfree/chart/plot/CombinedXYPlot.java:1: Comparison always produces the same result.
+./test4/org/jfree/chart/plot/CompassPlot.java:1: Index [-1,2147483646] may be out of array bounds.
+./test4/org/jfree/chart/plot/ContourPlot.java:1: Value of referenced variable '???' may be NULL.
+./test4/org/jfree/chart/plot/ContourPlot.java:2: Index [-1,2147483646] may be out of array bounds.
+./test4/org/jfree/chart/plot/ContourPlot.java:3: Zero operand for + operation.
+./test4/org/jfree/chart/renderer/DefaultDrawingSupplier.java:1: Comparison always produces the same result.
+./test4/org/jfree/chart/axis/HorizontalColorBarAxis.java:1: Value of referenced variable '???' may be NULL.
+./test4/org/jfree/chart/axis/HorizontalColorBarAxis.java:2: Value of referenced variable '???' may be NULL.
+./test4/org/jfree/data/time/Month.java:1: Comparison always produces the same result.
+./test4/org/jfree/chart/plot/Plot.java:1: Comparison always produces the same result.
+./test4/org/jfree/chart/plot/Plot.java:2: Comparison always produces the same result.
+./test4/org/jfree/data/time/Quarter.java:1: Comparison always produces the same result.
+./test4/org/jfree/chart/renderer/StackedVerticalBarRenderer.java:1: Zero operand for - operation.
+./test4/org/jfree/chart/renderer/StackedVerticalBarRenderer.java:2: Zero operand for - operation.
+./test4/org/jfree/chart/renderer/StackedVerticalBarRenderer.java:3: Zero operand for + operation.
+./test4/org/jfree/chart/renderer/StackedVerticalBarRenderer.java:4: Zero operand for - operation.
+./test4/org/jfree/chart/renderer/StackedVerticalBarRenderer.java:5: Zero operand for - operation.
+./test4/org/jfree/chart/renderer/StackedVerticalBarRenderer.java:6: Zero operand for + operation.
+./test4/org/jfree/chart/plot/ThermometerPlot.java:1: Comparison always produces the same result.
+./test4/org/jfree/data/time/Week.java:1: Comparison always produces the same result.

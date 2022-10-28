@@ -1,0 +1,50 @@
+./test10/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java:756: Value of referenced variable 'line' may be NULL.
+./test10/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java:851: Value of referenced variable 'line' may be NULL.
+./test10/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:923: Value of referenced variable 'line' may be NULL.
+./test10/org/jfree/chart/renderer/xy/AbstractXYItemRenderer.java:1089: Value of referenced variable 'line' may be NULL.
+./test10/org/jfree/chart/renderer/category/BarRenderer3D.java:573: Value of referenced variable 'path' may be NULL.
+./test10/org/jfree/chart/block/BlockContainer.java:210: Value of referenced variable 'ebp' may be NULL.
+./test10/org/jfree/chart/block/BorderArrangement.java:171: Value of referenced variable 'contentSize' may be NULL.
+./test10/org/jfree/chart/block/BorderArrangement.java:171: Value of referenced variable 'contentSize' may be NULL.
+./test10/org/jfree/chart/ChartFactory.java:332: Value of referenced variable 'series' may be NULL.
+./test10/org/jfree/chart/ChartFactory.java:351: Value of referenced variable 'series' may be NULL.
+./test10/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java:239: Value of referenced variable 'bar' may be NULL.
+./test10/org/jfree/chart/renderer/xy/ClusteredXYBarRenderer.java:239: Value of referenced variable 'bar' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:244: Value of referenced variable 'colorBarArea' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:250: Value of referenced variable 'colorBarArea' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:257: Value of referenced variable 'colorBarArea' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:263: Value of referenced variable 'colorBarArea' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:269: Value of referenced variable 'state' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:295: Value of referenced variable 'colorBarArea' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:296: Value of referenced variable 'colorBarArea' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:297: Value of referenced variable 'colorBarArea' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:299: Value of referenced variable 'colorBarArea' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:308: Value of referenced variable 'colorBarArea' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:309: Value of referenced variable 'colorBarArea' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:310: Value of referenced variable 'colorBarArea' may be NULL.
+./test10/org/jfree/chart/axis/ColorBar.java:312: Value of referenced variable 'colorBarArea' may be NULL.
+./test10/org/jfree/chart/plot/CompassPlot.java:500: Index [-1,2147483646] may be out of array bounds.
+./test10/org/jfree/chart/plot/ContourPlot.java:855: Index [-1,2147483646] may be out of array bounds.
+./test10/org/jfree/chart/plot/ContourPlot.java:864: Zero operand for + operation.
+./test10/org/jfree/chart/plot/FastScatterPlot.java:476: Value of referenced variable 'domainAxisState' may be NULL.
+./test10/org/jfree/chart/plot/FastScatterPlot.java:477: Value of referenced variable 'rangeAxisState' may be NULL.
+./test10/org/jfree/chart/JFreeChart.java:1018: Value of referenced variable 'entities' may be NULL.
+./test10/org/jfree/chart/JFreeChart.java:1028: Value of referenced variable 'entities' may be NULL.
+./test10/org/jfree/chart/block/LabelBlock.java:263: Value of referenced variable 'ebp' may be NULL.
+./test10/org/jfree/chart/title/LegendGraphic.java:451: Value of referenced variable 'contentSize' may be NULL.
+./test10/org/jfree/chart/title/LegendGraphic.java:451: Value of referenced variable 'contentSize' may be NULL.
+./test10/org/jfree/chart/plot/MultiplePiePlot.java:327: Value of referenced variable 'subinfo' may be NULL.
+./test10/org/jfree/chart/plot/MultiplePiePlot.java:330: Value of referenced variable 'subinfo' may be NULL.
+./test10/org/jfree/chart/title/TextTitle.java:468: Value of referenced variable 'contentSize' may be NULL.
+./test10/org/jfree/chart/title/TextTitle.java:468: Value of referenced variable 'contentSize' may be NULL.
+./test10/org/jfree/chart/title/TextTitle.java:557: Value of referenced variable 'p' may be NULL.
+./test10/org/jfree/data/time/TimeSeries.java:532: Comparison always produces the same result.
+./test10/org/jfree/data/time/Week.java:124: Comparison always produces the same result.
+./test10/org/jfree/chart/renderer/xy/XYBarRenderer.java:537: Value of referenced variable 'bar' may be NULL.
+./test10/org/jfree/chart/renderer/xy/XYBarRenderer.java:537: Value of referenced variable 'bar' may be NULL.
+./test10/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:542: Zero operand for + operation.
+./test10/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:552: Zero operand for + operation.
+./test10/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:567: Zero operand for + operation.
+./test10/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:572: Zero operand for + operation.
+./test10/org/jfree/chart/renderer/xy/XYDifferenceRenderer.java:575: Zero operand for + operation.
+./test10/org/jfree/chart/renderer/xy/YIntervalRenderer.java:172: Value of referenced variable 'line' may be NULL.

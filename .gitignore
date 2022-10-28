@@ -1,0 +1,3 @@
+jlint/tests/*
+jlint/jar_files/*
+jlint/*.o

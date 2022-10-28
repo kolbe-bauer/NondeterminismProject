@@ -1,15 +1,17 @@
 #! /usr/bin/bash
 
 TEST_PATH="./class_files"
-TEST_NUM=0
+TEST_NUM=1
+TEST_JAR_MAP="test_jar_map.txt"
 
+rm -f ${TEST_JAR_MAP}
 rm -rf ${TEST_PATH}
 mkdir ${TEST_PATH}
 DIR=$(find . -type d -name jar)
 
 for f in ${DIR}
 do
-	echo ${f}
+	echo "${TEST_NUM}: ${f}" >> ${TEST_JAR_MAP}
 	JAR_FILE=$(find ${f} -type f -name *.jar)
 	if [ -n ${JAR_FILE} ]; then
 		echo ${JAR_FILE}
