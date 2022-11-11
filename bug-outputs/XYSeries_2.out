@@ -1,0 +1,33 @@
+
+==== Found a thread safety violation! ====
+Sequential prefix:
+final org.jfree.data.XYSeries var0 = new org.jfree.data.XYSeries((java.lang.String) null, (boolean) false);
+final int var1 = var0.getMaximumItemCount();
+var0.add((double) 2.0d, (java.lang.Number) null);
+final java.lang.String var2 = var0.getDescription();
+var0.addChangeListener((org.jfree.data.SeriesChangeListener) null);
+var0.removePropertyChangeListener((java.beans.PropertyChangeListener) null);
+
+Concurrent suffixes:
+
+var0.removeChangeListener((org.jfree.data.SeriesChangeListener) null);
+var0.setMaximumItemCount((int) 100);
+
+vs.
+
+var0.removeChangeListener((org.jfree.data.SeriesChangeListener) null);
+var0.setMaximumItemCount((int) 100);
+
+Exception Found : java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.fastRemove(ArrayList.java:552)
+	at java.util.ArrayList.remove(ArrayList.java:529)
+	at org.jfree.data.Series.removeChangeListener(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at contege.MethodAtom$$anonfun$1.apply(Atom.scala:58)
+	at contege.MethodAtom$$anonfun$1.apply(Atom.scala:54)
+	at contege.seqexec.reflective.TimedExecutionThread.run(TimedExecutionThread.scala:18)
+
+-1
+Time (seconds): 2
