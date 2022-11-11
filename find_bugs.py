@@ -9,9 +9,8 @@ Or to run on all contege out files: ./find_bugs.py
 0 = deadlock bug, 1 = non-deadlock bug
 '''
 
-def process_bug_output(file_name):
+def process_bug_output(file_name, class_name):
     bugs = []
-    class_name = file_name.split('/')[-1].split('.')[0]
 
     # i forgot if python has enums
     # all_states = ('none', 'prefix', 'suffix1' , 'suffix2', 'exception')
@@ -59,9 +58,11 @@ def process_bug_output(file_name):
             elif state == 3:
                 suffix[1].append(line)
             elif state == 4:
-                if class_name in line:
+                #if class_name in line:
+                 #   exception.append(line)
+                  #  continue
+                if 'at' in line:
                     exception.append(line)
-                elif 'at' in line:
                     continue
                 else:
                     state = 0
@@ -115,7 +116,7 @@ if __name__ == '__main__':
         class_name = file_name.split('/')[-1].split('.')[0]
         print('\n' + class_name)
 
-        ret = process_bug_output(file_name)
+        ret = process_bug_output(file_name, class_name)
 
         if not ret:
             print('No bugs found in ConTeGe report')
