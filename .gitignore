@@ -3,3 +3,4 @@ jlint/jar_files/*
 jlint/*.o
 .idea/*
 ConTeGe/*
+ConTeGe/benchmarks/pldi2012/BufferedInputStream/.classpath
