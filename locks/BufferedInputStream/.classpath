@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/clinit.jar"/>
+	<classpathentry kind="lib" path="jar/jdk1.1_subset_rewritten.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
